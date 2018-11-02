@@ -1,0 +1,1800 @@
+Iniciando verificacion de datos
+ID SOA a verificar: 1900
+ID SOA a verificar: 963
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=728
+Los consumidores de la operacion son:
+
+consumidores: 61;#BS - SAP Mainframe",
+BS - SAP Mainframe
+URL a la ficha del fwk 
+469
+El framework es: AdministracionProductos
+Nombre Tecnico del Servicio: AdministracionGestionRechazo
+La URL de prod es:  /administraciongestionrechazo/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 964
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=729
+Los consumidores de la operacion son:
+
+consumidores: 20;#FC - Ficha de Clientes;#84;#MURM - Multiproducto;#74;#PTCO - Plataforma Comercial;#286;#YPRM - Journey Paquetes",
+FC - Ficha de Clientes
+MURM - Multiproducto
+PTCO - Plataforma Comercial
+YPRM - Journey Paquetes
+URL a la ficha del fwk 
+471
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryPricingAgreementCAS
+La URL de prod es:  /consultaconveniocas/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 965
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=730
+Los consumidores de la operacion son:
+
+consumidores: 74;#PTCO - Plataforma Comercial;#14;#GRRM-GreCo ;#120;#HQRM - Gesti\u00f3n de Paquete De Productos CPR",
+PTCO - Plataforma Comercial
+GRRM-GreCo 
+HQRM - Gesti\u00f3n de Paquete De Productos CPR
+URL a la ficha del fwk 
+340
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ManagePricingAgreementCAS
+La URL de prod es:  /administracionconvenioadelantocas/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 966
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 966
+ID SOA a verificar: 967
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=732
+Los consumidores de la operacion son:
+
+consumidores: 108;#ETAS - Terminales Autoservicio [TASI  Inteligente]",
+ETAS - Terminales Autoservicio [TASI  Inteligente]
+URL a la ficha del fwk 
+288
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesCobranzaIntegrada2.0.0
+La URL de prod es:  /accionescobranzaintegrada/v2/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 968
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=733
+Los consumidores de la operacion son:
+
+consumidores: ",
+No hay consumidores catalogados
+URL a la ficha del fwk 
+82
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaCobranzaIntegrada
+La URL de prod es:  /procesamientotransaccionesproductos/consultacobranzaintegrada/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 969
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=734
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+94
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaTarjetaCredito
+La URL de prod es:  /procesamientotransaccionesproductos/consultatarjetacredito/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 970
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=735
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+472
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequesCertificado
+La URL de prod es:  /accioneschequescertificado/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 971
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=736
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+472
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequesCertificado
+La URL de prod es:  /accioneschequescertificado/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 972
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=737
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+472
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequesCertificado
+La URL de prod es:  /accioneschequescertificado/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 973
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=738
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+473
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequeFinanciero2.0.0
+La URL de prod es:  /accioneschequefinanciero/v2/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 974
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=739
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+473
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequeFinanciero2.0.0
+La URL de prod es:  /accioneschequefinanciero/v2/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 975
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=740
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+473
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequeFinanciero2.0.0
+La URL de prod es:  /accioneschequefinanciero/v2/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 976
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=742
+Los consumidores de la operacion son:
+
+consumidores: 122;#AJRM - Web Site Quiero!",
+AJRM - Web Site Quiero!
+URL a la ficha del fwk 
+294
+El framework es: Personalizacion
+Nombre Tecnico del Servicio: ConsultaBeneficio2.0.0
+La URL de prod es:  /personalizacion/consultabeneficio/v2/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 977
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=130
+Los consumidores de la operacion son:
+
+consumidores: 200;#HC - Multas",
+HC - Multas
+URL a la ficha del fwk 
+468
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AdministracionMovimientosDebitoChequeSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 978
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 978
+ID SOA a verificar: 979
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20MQ/DispForm.aspx?ID=913
+Los consumidores de la operacion son:
+
+consumidores: 61;#BS - SAP Mainframe",
+BS - SAP Mainframe
+URL a la ficha del fwk 
+477
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: PostingControlOrderNotification
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 980
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=132
+Los consumidores de la operacion son:
+
+consumidores: 200;#HC - Multas",
+HC - Multas
+URL a la ficha del fwk 
+479
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: AccionesChequesSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 981
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=743
+Los consumidores de la operacion son:
+
+consumidores: 74;#PTCO - Plataforma Comercial",
+PTCO - Plataforma Comercial
+URL a la ficha del fwk 
+478
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: BankAccountPaymentFormAction
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 982
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=744
+Los consumidores de la operacion son:
+
+consumidores: 148;#BIDR- Back Integrado de Dinero [RM] ;#96;#HBRM - Home Banking Portal cliente [RM];#269;#MYAM - Administrador de m\u00e1rgenes",
+BIDR- Back Integrado de Dinero [RM] 
+HBRM - Home Banking Portal cliente [RM]
+MYAM - Administrador de m\u00e1rgenes
+URL a la ficha del fwk 
+272
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: ManageBankAccountBalance
+La URL de prod es:  /consultasaldocuenta/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 983
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 983
+ID SOA a verificar: 984
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=745
+Los consumidores de la operacion son:
+
+consumidores: 96;#HBRM - Home Banking Portal cliente [RM];#74;#PTCO - Plataforma Comercial;#15;#TERM - Tele Marketing [Telesoft];#99;#BTRM - Fonobanco Operador [RM];#43;#ECHN - E-Channels [RM];#252;#CRRM - Cupones RM;#119;#GLRM - Altas Masivas;#217;#EGAP - Portal e-Galicia;#294;#FIDI - Financiamiento Digital Gailcia",
+HBRM - Home Banking Portal cliente [RM]
+PTCO - Plataforma Comercial
+TERM - Tele Marketing [Telesoft]
+BTRM - Fonobanco Operador [RM]
+ECHN - E-Channels [RM]
+CRRM - Cupones RM
+GLRM - Altas Masivas
+EGAP - Portal e-Galicia
+FIDI - Financiamiento Digital Gailcia
+URL a la ficha del fwk 
+481
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: LoanContracAction
+La URL de prod es:  /accionescontratoprestamo/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 985
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=746
+Los consumidores de la operacion son:
+
+consumidores: 179;#CRRM - Vendor (RM)",
+CRRM - Vendor (RM)
+URL a la ficha del fwk 
+410
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: ManageLoanContract
+La URL de prod es:  /administracioncontratoprestamo/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 986
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=747
+Los consumidores de la operacion son:
+
+consumidores: 179;#CRRM - Vendor (RM);#137;#GORM - Galicia Office [RM]",
+CRRM - Vendor (RM)
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+414
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryLoanContractApplication
+La URL de prod es:  /consultasolicitudprestamo/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 987
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=134
+Los consumidores de la operacion son:
+
+consumidores: 69;#HQ - Gestion de Paquetes de productos [MF];#214;#ATM - Alta de Prestamo",
+HQ - Gestion de Paquetes de productos [MF]
+ATM - Alta de Prestamo
+URL a la ficha del fwk 
+483
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: AdministracionContratoPrestamoSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 988
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 988
+ID SOA a verificar: 989
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=748&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 74;#PTCO - Plataforma Comercial;#99;#BTRM - Fonobanco Operador [RM];#116;#PKRM - Plataforma Corporate;#119;#GLRM - Altas Masivas",
+PTCO - Plataforma Comercial
+BTRM - Fonobanco Operador [RM]
+PKRM - Plataforma Corporate
+GLRM - Altas Masivas
+URL a la ficha del fwk 
+484
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryBankCheckbook
+La URL de prod es:  /consultachequeracliente/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 990
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 990
+ID SOA a verificar: 991
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 991
+ID SOA a verificar: 992
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=758&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 74;#PTCO - Plataforma Comercial;#119;#GLRM - Altas Masivas",
+PTCO - Plataforma Comercial
+GLRM - Altas Masivas
+URL a la ficha del fwk 
+485
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryBankAccountContractClosure
+La URL de prod es:  /consultacierrecontratocuenta/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 993
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=759&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 74;#PTCO - Plataforma Comercial",
+PTCO - Plataforma Comercial
+URL a la ficha del fwk 
+485
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryBankAccountContractClosure
+La URL de prod es:  /consultacierrecontratocuenta/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 994
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 994
+ID SOA a verificar: 995
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=136
+Los consumidores de la operacion son:
+
+consumidores: 200;#HC - Multas;#234;#ZM [MF]",
+HC - Multas
+ZM [MF]
+URL a la ficha del fwk 
+476
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: AdministracionOrdenPCOSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 996
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=749
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas",
+GLRM - Altas Masivas
+URL a la ficha del fwk 
+487
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: AdministracionSolicitudInformeComercial
+La URL de prod es:  /administracionsolicitudinformecomercial/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 997
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=750
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas;#268;#MYAC - Administrador de Calificaciones",
+GLRM - Altas Masivas
+MYAC - Administrador de Calificaciones
+URL a la ficha del fwk 
+487
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: AdministracionSolicitudInformeComercial
+La URL de prod es:  /administracionsolicitudinformecomercial/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 998
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=751
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas",
+GLRM - Altas Masivas
+URL a la ficha del fwk 
+487
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: AdministracionSolicitudInformeComercial
+La URL de prod es:  /administracionsolicitudinformecomercial/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 999
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=752
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas",
+GLRM - Altas Masivas
+URL a la ficha del fwk 
+487
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: AdministracionSolicitudInformeComercial
+La URL de prod es:  /administracionsolicitudinformecomercial/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1000
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=137
+Los consumidores de la operacion son:
+
+consumidores: 124;#FN - Pago a Proveedores [MF];#8;#FY - Cobranza Integrada Galicia [MF]",
+FN - Pago a Proveedores [MF]
+FY - Cobranza Integrada Galicia [MF]
+URL a la ficha del fwk 
+480
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: AdministracionPaqueteSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1001
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=753
+Los consumidores de la operacion son:
+
+consumidores: 96;#HBRM - Home Banking Portal cliente [RM];#178;#HBRM - Home Banking Portal NO cliente [RM]  ;#89;#CPC (RM) Consulta de Posventas de Cuentas;#100;#BTIV - IVR  Fonobanco",
+HBRM - Home Banking Portal cliente [RM]
+HBRM - Home Banking Portal NO cliente [RM]  
+CPC (RM) Consulta de Posventas de Cuentas
+BTIV - IVR  Fonobanco
+URL a la ficha del fwk 
+488
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaCheques 
+La URL de prod es:  /consultacheques/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1002
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=754&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 133;#BSRM - SAP Cuentas Core ",
+BSRM - SAP Cuentas Core 
+URL a la ficha del fwk 
+489
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequesPagoProveedores
+La URL de prod es:  /accioneschequespagoproveedores/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1003
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 1003
+ID SOA a verificar: 1004
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=755
+Los consumidores de la operacion son:
+
+consumidores: 248;#Avantrip",
+Avantrip
+URL a la ficha del fwk 
+348
+El framework es: Personalizacion
+Nombre Tecnico del Servicio: ConsultaMovimientoContratoFidelizacion
+La URL de prod es:  /consultamovimientocontratofidelizacion/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1005
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=756
+Los consumidores de la operacion son:
+
+consumidores: 133;#BSRM - SAP Cuentas Core ",
+BSRM - SAP Cuentas Core 
+URL a la ficha del fwk 
+489
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequesPagoProveedores
+La URL de prod es:  /accioneschequespagoproveedores/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1006
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=757
+Los consumidores de la operacion son:
+
+consumidores: 133;#BSRM - SAP Cuentas Core ",
+BSRM - SAP Cuentas Core 
+URL a la ficha del fwk 
+346
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaEstadoChequesPagoProveedores
+La URL de prod es:  /consultaestadochequespagoproveedores/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1007
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=760
+Los consumidores de la operacion son:
+
+consumidores: 122;#AJRM - Web Site Quiero!",
+AJRM - Web Site Quiero!
+URL a la ficha del fwk 
+490
+El framework es: Personalizacion
+Nombre Tecnico del Servicio: ConsultacontratoFidelizacion4.0.0
+La URL de prod es:  /consultacontratofidelizacion/v4/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1008
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=761
+Los consumidores de la operacion son:
+
+consumidores: 96;#HBRM - Home Banking Portal cliente [RM];#122;#AJRM - Web Site Quiero!",
+HBRM - Home Banking Portal cliente [RM]
+AJRM - Web Site Quiero!
+URL a la ficha del fwk 
+490
+El framework es: Personalizacion
+Nombre Tecnico del Servicio: ConsultacontratoFidelizacion4.0.0
+La URL de prod es:  /consultacontratofidelizacion/v4/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1009
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=762
+Los consumidores de la operacion son:
+
+consumidores: 122;#AJRM - Web Site Quiero!;#100;#BTIV - IVR  Fonobanco",
+AJRM - Web Site Quiero!
+BTIV - IVR  Fonobanco
+URL a la ficha del fwk 
+490
+El framework es: Personalizacion
+Nombre Tecnico del Servicio: ConsultacontratoFidelizacion4.0.0
+La URL de prod es:  /consultacontratofidelizacion/v4/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1010
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=763
+Los consumidores de la operacion son:
+
+consumidores: 215;#OMNI - Omnichannel;#122;#AJRM - Web Site Quiero!;#256;#UDGB - Escritorio Unificado",
+OMNI - Omnichannel
+AJRM - Web Site Quiero!
+UDGB - Escritorio Unificado
+URL a la ficha del fwk 
+490
+El framework es: Personalizacion
+Nombre Tecnico del Servicio: ConsultacontratoFidelizacion4.0.0
+La URL de prod es:  /consultacontratofidelizacion/v4/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1011
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 1011
+ID SOA a verificar: 1012
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=138&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520Socket%2FCatlogo%2520de%2520Operaciones%2520So
+Los consumidores de la operacion son:
+
+consumidores: 124;#FN - Pago a Proveedores [MF];#8;#FY - Cobranza Integrada Galicia [MF]",
+FN - Pago a Proveedores [MF]
+FY - Cobranza Integrada Galicia [MF]
+URL a la ficha del fwk 
+491
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: AccionesCierreCuentaContratoSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1013
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=765
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+473
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequeFinanciero2.0.0
+La URL de prod es:  /accioneschequefinanciero/v2/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1014
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=766
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+473
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesChequeFinanciero2.0.0
+La URL de prod es:  /accioneschequefinanciero/v2/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1015
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=140
+Los consumidores de la operacion son:
+
+consumidores: 124;#FN - Pago a Proveedores [MF];#8;#FY - Cobranza Integrada Galicia [MF]",
+FN - Pago a Proveedores [MF]
+FY - Cobranza Integrada Galicia [MF]
+URL a la ficha del fwk 
+496
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryMasterContract
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1016
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=141
+Los consumidores de la operacion son:
+
+consumidores: 124;#FN - Pago a Proveedores [MF];#8;#FY - Cobranza Integrada Galicia [MF]",
+FN - Pago a Proveedores [MF]
+FY - Cobranza Integrada Galicia [MF]
+URL a la ficha del fwk 
+496
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryMasterContract
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1017
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=769
+Los consumidores de la operacion son:
+
+consumidores: 74;#PTCO - Plataforma Comercial;#252;#CRRM - Cupones RM;#137;#GORM - Galicia Office [RM]",
+PTCO - Plataforma Comercial
+CRRM - Cupones RM
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+143
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryLoanContract
+La URL de prod es:  /queryloancontract/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1018
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=770
+Los consumidores de la operacion son:
+
+consumidores: 96;#HBRM - Home Banking Portal cliente [RM]",
+HBRM - Home Banking Portal cliente [RM]
+URL a la ficha del fwk 
+494
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesPrestamoOnlineHomeBanking
+La URL de prod es:  /accionesprestamoonlinehomebanking/v2/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1019
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=139
+Los consumidores de la operacion son:
+
+consumidores: 124;#FN - Pago a Proveedores [MF];#8;#FY - Cobranza Integrada Galicia [MF]",
+FN - Pago a Proveedores [MF]
+FY - Cobranza Integrada Galicia [MF]
+URL a la ficha del fwk 
+480
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: AdministracionPaqueteSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1020
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=771&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas",
+GLRM - Altas Masivas
+URL a la ficha del fwk 
+495
+El framework es: ConocimientoCliente
+Nombre Tecnico del Servicio: ConsultaInformacionEvaluacionIndividuosOferta
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1021
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=142
+Los consumidores de la operacion son:
+
+consumidores: 183;#QH-Administraci\u00f3n de Chequeras",
+QH-Administraci\u00f3n de Chequeras
+URL a la ficha del fwk 
+497
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryBankCheckbook
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1022
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=772&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 96;#HBRM - Home Banking Portal cliente [RM];#120;#HQRM - Gesti\u00f3n de Paquete De Productos CPR",
+HBRM - Home Banking Portal cliente [RM]
+HQRM - Gesti\u00f3n de Paquete De Productos CPR
+URL a la ficha del fwk 
+498
+El framework es: ProcesosVentas
+Nombre Tecnico del Servicio: AccionesPactoEntregaProductoOCA
+La URL de prod es:  /accionespactoentregaproductooca/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1023
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=774&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas;#268;#MYAC - Administrador de Calificaciones;#15;#TERM - Tele Marketing [Telesoft]",
+GLRM - Altas Masivas
+MYAC - Administrador de Calificaciones
+TERM - Tele Marketing [Telesoft]
+URL a la ficha del fwk 
+499
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: ConsultaInformeComercial
+La URL de prod es:  /consultainformecomercial/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1024
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=775
+Los consumidores de la operacion son:
+
+consumidores: 96;#HBRM - Home Banking Portal cliente [RM];#120;#HQRM - Gesti\u00f3n de Paquete De Productos CPR",
+HBRM - Home Banking Portal cliente [RM]
+HQRM - Gesti\u00f3n de Paquete De Productos CPR
+URL a la ficha del fwk 
+498
+El framework es: ProcesosVentas
+Nombre Tecnico del Servicio: AccionesPactoEntregaProductoOCA
+La URL de prod es:  /accionespactoentregaproductooca/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1025
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=776
+Los consumidores de la operacion son:
+
+consumidores: 96;#HBRM - Home Banking Portal cliente [RM];#120;#HQRM - Gesti\u00f3n de Paquete De Productos CPR",
+HBRM - Home Banking Portal cliente [RM]
+HQRM - Gesti\u00f3n de Paquete De Productos CPR
+URL a la ficha del fwk 
+498
+El framework es: ProcesosVentas
+Nombre Tecnico del Servicio: AccionesPactoEntregaProductoOCA
+La URL de prod es:  /accionespactoentregaproductooca/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1026
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=777
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+500
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaAFIP
+La URL de prod es:  /consultaafip/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1027
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=780
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM];#282;#GRFC - First Contact Resolution;#14;#GRRM-GreCo ",
+GORM - Galicia Office [RM]
+GRFC - First Contact Resolution
+GRRM-GreCo 
+URL a la ficha del fwk 
+283
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: ManageBankAccountPaymentItems
+La URL de prod es:  /managebankaccountpaymentitems/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1028
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=778&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 108;#ETAS - Terminales Autoservicio [TASI  Inteligente]",
+ETAS - Terminales Autoservicio [TASI  Inteligente]
+URL a la ficha del fwk 
+501
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesDeposito5.0.0
+La URL de prod es:  /accionesdeposito/v5/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1029
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=779&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 108;#ETAS - Terminales Autoservicio [TASI  Inteligente]",
+ETAS - Terminales Autoservicio [TASI  Inteligente]
+URL a la ficha del fwk 
+501
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AccionesDeposito5.0.0
+La URL de prod es:  /accionesdeposito/v5/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1030
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=781&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+500
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaAFIP
+La URL de prod es:  /consultaafip/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1031
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=782&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+500
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaAFIP
+La URL de prod es:  /consultaafip/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1032
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=783
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+500
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaAFIP
+La URL de prod es:  /consultaafip/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1033
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=784&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+503
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaPermisoEmbarque
+La URL de prod es:  /consultapermisoembarque/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1034
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=785&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+503
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaPermisoEmbarque
+La URL de prod es:  /consultapermisoembarque/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1035
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=786&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+503
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaPermisoEmbarque
+La URL de prod es:  /consultapermisoembarque/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1036
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=787&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+503
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaPermisoEmbarque
+La URL de prod es:  /consultapermisoembarque/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1037
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 1037
+ID SOA a verificar: 1038
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=788
+Los consumidores de la operacion son:
+
+consumidores: 43;#ECHN - E-Channels [RM];#14;#GRRM-GreCo ;#96;#HBRM - Home Banking Portal cliente [RM]",
+ECHN - E-Channels [RM]
+GRRM-GreCo 
+HBRM - Home Banking Portal cliente [RM]
+URL a la ficha del fwk 
+504
+El framework es: ProcesosVentas
+Nombre Tecnico del Servicio: ConsultaEvaluacionIndividuosOferta
+La URL de prod es:  /consultaevaluacionindividuosoferta/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1039
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=789&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 14;#GRRM-GreCo ;#96;#HBRM - Home Banking Portal cliente [RM]",
+GRRM-GreCo 
+HBRM - Home Banking Portal cliente [RM]
+URL a la ficha del fwk 
+14
+El framework es: ProcesosVentas
+Nombre Tecnico del Servicio: AdministracionSolicitudProductos
+La URL de prod es:  /procesosventas/administracionsolicitudproductos
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1040
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 1040
+ID SOA a verificar: 1041
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=143
+Los consumidores de la operacion son:
+
+consumidores: 23;#BC10 - Base Clientes",
+BC10 - Base Clientes
+URL a la ficha del fwk 
+506
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryBankAccountPrenotesSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1042
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=792
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas;#269;#MYAM - Administrador de m\u00e1rgenes",
+GLRM - Altas Masivas
+MYAM - Administrador de m\u00e1rgenes
+URL a la ficha del fwk 
+507
+El framework es: ConocimientoCliente
+Nombre Tecnico del Servicio: AdministracionCalificacionCliente
+La URL de prod es:  /administracioncalificacioncliente/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1043
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=144
+Los consumidores de la operacion son:
+
+consumidores: 23;#BC10 - Base Clientes",
+BC10 - Base Clientes
+URL a la ficha del fwk 
+508
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryBankAccountChargesSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1044
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=793
+Los consumidores de la operacion son:
+
+consumidores: 22;#NV90 - Posicion Consolidada de Clientes",
+NV90 - Posicion Consolidada de Clientes
+URL a la ficha del fwk 
+509
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryBankAccountFinancialConditions
+La URL de prod es:  http://osb.bancogalicia.com.ar/consultacomisionesbonificacionescuenta/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1045
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=794&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas;#269;#MYAM - Administrador de m\u00e1rgenes",
+GLRM - Altas Masivas
+MYAM - Administrador de m\u00e1rgenes
+URL a la ficha del fwk 
+507
+El framework es: ConocimientoCliente
+Nombre Tecnico del Servicio: AdministracionCalificacionCliente
+La URL de prod es:  /administracioncalificacioncliente/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1046
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=795&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas;#269;#MYAM - Administrador de m\u00e1rgenes",
+GLRM - Altas Masivas
+MYAM - Administrador de m\u00e1rgenes
+URL a la ficha del fwk 
+170
+El framework es: CanalesExternos
+Nombre Tecnico del Servicio: AdministracionClienteCanalesAlternativos
+La URL de prod es:  /administracionclientecanalesalternativos/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1047
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=837
+Los consumidores de la operacion son:
+
+consumidores: 96;#HBRM - Home Banking Portal cliente [RM]",
+HBRM - Home Banking Portal cliente [RM]
+URL a la ficha del fwk 
+510
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: ConsultaOperatoria
+La URL de prod es:  /consultaoperatoria/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1048
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=146&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520Socket%2FCatlogo%2520de%2520Operaciones%2520So
+Los consumidores de la operacion son:
+
+consumidores: 23;#BC10 - Base Clientes",
+BC10 - Base Clientes
+URL a la ficha del fwk 
+505
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: ConsultaLiquidacionCuentaSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1049
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=797&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 22;#NV90 - Posicion Consolidada de Clientes",
+NV90 - Posicion Consolidada de Clientes
+URL a la ficha del fwk 
+511
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryBankAccountSettlement
+La URL de prod es:  /consultaliquidacioncuenta/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1050
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=798&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 96;#HBRM - Home Banking Portal cliente [RM];#178;#HBRM - Home Banking Portal NO cliente [RM]  ;#217;#EGAP - Portal e-Galicia;#99;#BTRM - Fonobanco Operador [RM];#100;#BTIV - IVR  Fonobanco;#122;#AJRM - Web Site Quiero!;#137;#GORM - Galicia Office [RM];#215;#OMNI - Omnichannel",
+HBRM - Home Banking Portal cliente [RM]
+HBRM - Home Banking Portal NO cliente [RM]  
+EGAP - Portal e-Galicia
+BTRM - Fonobanco Operador [RM]
+BTIV - IVR  Fonobanco
+AJRM - Web Site Quiero!
+GORM - Galicia Office [RM]
+OMNI - Omnichannel
+URL a la ficha del fwk 
+422
+El framework es: EjecucionCampanias
+Nombre Tecnico del Servicio: AccionesPromocionesClientes
+La URL de prod es:  /accionespromocionescliente/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1051
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=800&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+512
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaDespachoImportacion
+La URL de prod es:  /consultadespachoimportacion/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1052
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=801&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+512
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaDespachoImportacion
+La URL de prod es:  /consultadespachoimportacion/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1053
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=802&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+512
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaDespachoImportacion
+La URL de prod es:  /consultadespachoimportacion/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1054
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=803&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+512
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaDespachoImportacion
+La URL de prod es:  /consultadespachoimportacion/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1055
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=804&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+512
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaDespachoImportacion
+La URL de prod es:  /consultadespachoimportacion/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1056
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=805&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 43;#ECHN - E-Channels [RM];#96;#HBRM - Home Banking Portal cliente [RM];#14;#GRRM-GreCo ",
+ECHN - E-Channels [RM]
+HBRM - Home Banking Portal cliente [RM]
+GRRM-GreCo 
+URL a la ficha del fwk 
+299
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: ConsultaValidacionIdentidad
+La URL de prod es:  /consultavalidacionidentidad/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1057
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=806&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 43;#ECHN - E-Channels [RM];#96;#HBRM - Home Banking Portal cliente [RM];#14;#GRRM-GreCo ",
+ECHN - E-Channels [RM]
+HBRM - Home Banking Portal cliente [RM]
+GRRM-GreCo 
+URL a la ficha del fwk 
+299
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: ConsultaValidacionIdentidad
+La URL de prod es:  /consultavalidacionidentidad/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1058
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=807
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+514
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: ConsultaPrecalificacionPersona
+La URL de prod es:  /consultaprecalificacionpersona/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1059
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 1059
+ID SOA a verificar: 1060
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=808&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+515
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaMercaderiaSinDespacho
+La URL de prod es:  /consultamercaderiasindespacho/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1061
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&ID=974&ContentTypeID=0x010069C1EDA09E13FD4C917ED999A5F81810
+Los consumidores de la operacion son:
+
+consumidores: 14;#GRRM-GreCo ;#74;#PTCO - Plataforma Comercial;#106;#PTCA - Plataforma Caja vieja [RM];#43;#ECHN - E-Channels [RM];#100;#BTIV - IVR  Fonobanco;#256;#UDGB - Escritorio Unificado;#122;#AJRM - Web Site Quiero!",
+GRRM-GreCo 
+PTCO - Plataforma Comercial
+PTCA - Plataforma Caja vieja [RM]
+ECHN - E-Channels [RM]
+BTIV - IVR  Fonobanco
+UDGB - Escritorio Unificado
+AJRM - Web Site Quiero!
+URL a la ficha del fwk 
+516
+El framework es: ABMCInfoClientes
+Nombre Tecnico del Servicio: ConsultaDatosCliente
+La URL de prod es:  /consultadatoscliente/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1062
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=809&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+515
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaMercaderiaSinDespacho
+La URL de prod es:  /consultamercaderiasindespacho/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1063
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=810
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+515
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaMercaderiaSinDespacho
+La URL de prod es:  /consultamercaderiasindespacho/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1064
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=811
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+515
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaMercaderiaSinDespacho
+La URL de prod es:  /consultamercaderiasindespacho/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1065
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=812
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+515
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaMercaderiaSinDespacho
+La URL de prod es:  /consultamercaderiasindespacho/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1066
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=813&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 217;#EGAP - Portal e-Galicia;#137;#GORM - Galicia Office [RM];#256;#UDGB - Escritorio Unificado;#96;#HBRM - Home Banking Portal cliente [RM];#119;#GLRM - Altas Masivas",
+EGAP - Portal e-Galicia
+GORM - Galicia Office [RM]
+UDGB - Escritorio Unificado
+HBRM - Home Banking Portal cliente [RM]
+GLRM - Altas Masivas
+URL a la ficha del fwk 
+517
+El framework es: GestionReclamos
+Nombre Tecnico del Servicio: AdministracionGestionReclamosYSolicitudes
+La URL de prod es:  http://osb/administraciongestionreclamosysolicitudes/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1067
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&ID=970&ContentTypeID=0x010069C1EDA09E13FD4C917ED999A5F81810
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+518
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesActividadesPortalEmpresas
+La URL de prod es:  /accionesactividadesportalempresas/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1068
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=814&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+519
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaComercioExteriorSAPP
+La URL de prod es:  /consultacomercioexteriorsapp/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1069
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=815&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+519
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaComercioExteriorSAPP
+La URL de prod es:  /consultacomercioexteriorsapp/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1070
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=816&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+519
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaComercioExteriorSAPP
+La URL de prod es:  /consultacomercioexteriorsapp/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1071
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=817
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+519
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaComercioExteriorSAPP
+La URL de prod es:  /consultacomercioexteriorsapp/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1072
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=818
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+519
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaComercioExteriorSAPP
+La URL de prod es:  /consultacomercioexteriorsapp/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1073
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=819
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+519
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaComercioExteriorSAPP
+La URL de prod es:  /consultacomercioexteriorsapp/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1074
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=820
+Los consumidores de la operacion son:
+
+consumidores: 209;#EXCT - ClientTrade (Comex - Front) [RM]",
+EXCT - ClientTrade (Comex - Front) [RM]
+URL a la ficha del fwk 
+519
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaComercioExteriorSAPP
+La URL de prod es:  /consultacomercioexteriorsapp/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1075
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=821&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 204;#MYGE - Gestion de Excesos",
+MYGE - Gestion de Excesos
+URL a la ficha del fwk 
+520
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: ConsultaExposicionRiesgoCliente
+La URL de prod es:  http://osb.bancogalicia.com.ar/consultaexposicionriesgocliente/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1076
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=822
+Los consumidores de la operacion son:
+
+consumidores: 74;#PTCO - Plataforma Comercial",
+PTCO - Plataforma Comercial
+URL a la ficha del fwk 
+523
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: AccionesValidacionIdentidad
+La URL de prod es:  /accionesvalidacionidentidad/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1077
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=823&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 119;#GLRM - Altas Masivas;#279;#EFRM - Firmas;#286;#YPRM - Journey Paquetes;#301;#YERM - Journey de Empresas Venta Digital",
+GLRM - Altas Masivas
+EFRM - Firmas
+YPRM - Journey Paquetes
+YERM - Journey de Empresas Venta Digital
+URL a la ficha del fwk 
+184
+El framework es: ABMCInfoClientes
+Nombre Tecnico del Servicio: AdministracionCliente2.0.0
+La URL de prod es:  http://abmcinfoclientes/administracioncliente/v2/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1078
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=824
+Los consumidores de la operacion son:
+
+consumidores: 231;#ACUM - Acuerdos Multiples [RM]",
+ACUM - Acuerdos Multiples [RM]
+URL a la ficha del fwk 
+429
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: AdministracionAcuerdoContratoCuenta
+La URL de prod es:  /administracionacuerdocontratocuenta/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1079
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=825
+Los consumidores de la operacion son:
+
+consumidores: 204;#MYGE - Gestion de Excesos;#220;#MYAG - Asignaci\u00f3n- Originaci\u00f3n Mayorista ;#64;#NGRM - EMERIX",
+MYGE - Gestion de Excesos
+MYAG - Asignaci\u00f3n- Originaci\u00f3n Mayorista 
+NGRM - EMERIX
+URL a la ficha del fwk 
+524
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: ConsultaFacultadesCrediticias
+La URL de prod es:  /consultafacultadescrediticias/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1080
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=826
+Los consumidores de la operacion son:
+
+consumidores: 220;#MYAG - Asignaci\u00f3n- Originaci\u00f3n Mayorista ;#211;#MYGE - Originacion Mayorista;#64;#NGRM - EMERIX",
+MYAG - Asignaci\u00f3n- Originaci\u00f3n Mayorista 
+MYGE - Originacion Mayorista
+NGRM - EMERIX
+URL a la ficha del fwk 
+524
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: ConsultaFacultadesCrediticias
+La URL de prod es:  /consultafacultadescrediticias/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1081
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=827
+Los consumidores de la operacion son:
+
+consumidores: 204;#MYGE - Gestion de Excesos;#220;#MYAG - Asignaci\u00f3n- Originaci\u00f3n Mayorista ;#64;#NGRM - EMERIX",
+MYGE - Gestion de Excesos
+MYAG - Asignaci\u00f3n- Originaci\u00f3n Mayorista 
+NGRM - EMERIX
+URL a la ficha del fwk 
+524
+El framework es: AdministracionRiesgoCliente
+Nombre Tecnico del Servicio: ConsultaFacultadesCrediticias
+La URL de prod es:  /consultafacultadescrediticias/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1082
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 1082
+ID SOA a verificar: 1083
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=828
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1084
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=829&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1085
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 1085
+ID SOA a verificar: 1086
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=830
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+64
+El framework es: ProcesamientoExcepcionesCliente
+Nombre Tecnico del Servicio: AccionesMultaCheque
+La URL de prod es:  /accionesmultacheque/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1087
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=831
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+64
+El framework es: ProcesamientoExcepcionesCliente
+Nombre Tecnico del Servicio: AccionesMultaCheque
+La URL de prod es:  /accionesmultacheque/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1088
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=832
+Los consumidores de la operacion son:
+
+consumidores: 222;#RRHH - Recursos Humanos;#74;#PTCO - Plataforma Comercial",
+RRHH - Recursos Humanos
+PTCO - Plataforma Comercial
+URL a la ficha del fwk 
+527
+El framework es: AdministraciondelaEntidad
+Nombre Tecnico del Servicio: AdministracionDatosGeneralesPersonal
+La URL de prod es:  /administraciondatosgeneralespersonal/basica
+Exise el Framework?: FwkNoExist
+ID SOA a verificar: 1089
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=833
+Los consumidores de la operacion son:
+
+consumidores: 146;#PTRM - Siebel Teller Central Server (Sigal)",
+PTRM - Siebel Teller Central Server (Sigal)
+URL a la ficha del fwk 
+64
+El framework es: ProcesamientoExcepcionesCliente
+Nombre Tecnico del Servicio: AccionesMultaCheque
+La URL de prod es:  /accionesmultacheque/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1090
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=834
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1091
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=835
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1092
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=836
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1093
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=149
+Los consumidores de la operacion son:
+
+consumidores: 33;#GO - Galicia Office [MF]",
+GO - Galicia Office [MF]
+URL a la ficha del fwk 
+528
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AdministracionClienteComercioExteriorSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1094
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=150
+Los consumidores de la operacion son:
+
+consumidores: 33;#GO - Galicia Office [MF]",
+GO - Galicia Office [MF]
+URL a la ficha del fwk 
+528
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AdministracionClienteComercioExteriorSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1095
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=151&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520Socket%2FCatlogo%2520de%2520Operaciones%2520So
+Los consumidores de la operacion son:
+
+consumidores: 33;#GO - Galicia Office [MF]",
+GO - Galicia Office [MF]
+URL a la ficha del fwk 
+528
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: AdministracionClienteComercioExteriorSocket
+La URL de prod es: 
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1096
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=838&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 33;#GO - Galicia Office [MF]",
+GO - Galicia Office [MF]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1097
+Algo salio mal: no pudo obtener la info relacionada al IDSOA: 1097
+ID SOA a verificar: 1098
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=839
+Los consumidores de la operacion son:
+
+consumidores: 204;#MYGE - Gestion de Excesos;#220;#MYAG - Asignaci\u00f3n- Originaci\u00f3n Mayorista ;#6;#OARM - Otorgamiento A Empresas [RM];#304;#MYOT - Sistema Integral de Cr\u00e9ditos",
+MYGE - Gestion de Excesos
+MYAG - Asignaci\u00f3n- Originaci\u00f3n Mayorista 
+OARM - Otorgamiento A Empresas [RM]
+MYOT - Sistema Integral de Cr\u00e9ditos
+URL a la ficha del fwk 
+529
+El framework es: ABMCInfoClientes
+Nombre Tecnico del Servicio: ConsultaAsignacionCrediticiaBancaMayorista
+La URL de prod es:  /consultaasignacioncrediticiabancamayorista/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1099
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=841&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 204;#MYGE - Gestion de Excesos;#6;#OARM - Otorgamiento A Empresas [RM]",
+MYGE - Gestion de Excesos
+OARM - Otorgamiento A Empresas [RM]
+URL a la ficha del fwk 
+529
+El framework es: ABMCInfoClientes
+Nombre Tecnico del Servicio: ConsultaAsignacionCrediticiaBancaMayorista
+La URL de prod es:  /consultaasignacioncrediticiabancamayorista/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1100
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=840
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1101
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=843&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 204;#MYGE - Gestion de Excesos",
+MYGE - Gestion de Excesos
+URL a la ficha del fwk 
+529
+El framework es: ABMCInfoClientes
+Nombre Tecnico del Servicio: ConsultaAsignacionCrediticiaBancaMayorista
+La URL de prod es:  /consultaasignacioncrediticiabancamayorista/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1102
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=842
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1103
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&ID=844&ContentTypeID=0x010069C1EDA09E13FD4C917ED999A5F81810
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1104
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&ID=845&ContentTypeID=0x010069C1EDA09E13FD4C917ED999A5F81810
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+525
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /accionescodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1105
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=846
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+530
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: ConsultaCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /consultacodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1106
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=848
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+URL a la ficha del fwk 
+530
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: ConsultaCodigoVerificacionIdentidadInterbanking
+La URL de prod es:  /consultacodigoverificacionidentidadinterbanking/basica
+Exise el Framework?: FwkSiExist
+ID SOA a verificar: 1107
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=154&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520Socket%2FCatlogo%2520de%2520Operaciones%2520So
+Los consumidores de la operacion son:
+
+consumidores: null

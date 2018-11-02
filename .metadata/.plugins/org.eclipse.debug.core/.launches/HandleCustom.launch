@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CustomUpDate/src/HandleCustom.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="HandleCustom"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="C:\Users\l0646482\n\mi_desa\jenkins\jobs_desarrollo\Handle_Custom\recursos\l0646482\GeneracionEnvioDeInformacionAlCliente\AccionesConversacionAsistenteVirtual\v1\Entregables\AccionesConversacionAsistenteVirtual_Homo.xml ObtenerRespuestaCalificada &quot;https://mail.yah&amp;amp;oo.com&amp;/neo/launch?.src=ym&amp;amp%3Brea&amp;son=unexp&amp;amp%3Bected_ymv#6262301635&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CustomUpDate"/>
+</launchConfiguration>

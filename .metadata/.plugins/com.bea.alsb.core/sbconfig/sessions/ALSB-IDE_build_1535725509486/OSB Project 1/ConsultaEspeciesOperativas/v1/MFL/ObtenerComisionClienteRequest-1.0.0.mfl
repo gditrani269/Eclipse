@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mflEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
+    <con:mfl><![CDATA[<?xml version='1.0' encoding='windows-1252'?>
+<!DOCTYPE MessageFormat SYSTEM 'mfl.dtd'>
+<MessageFormat name='ObtenerComisionClienteRequest-1' version='2.01'>
+    <StructFormat name='RequestPrincipal' delimOptional='y'>
+        <StructFormat name='RCV-HEADER-ENTRADA' delimOptional='y'>
+            <StructFormat name='BGHEADER' delimOptional='y'>
+                <StructFormat name='BGH-ID' delimOptional='y'>
+                    <StructFormat name='BGH-IDMSG' delimOptional='y'>
+                        <FieldFormat name='BGH-IDMSG-ESQUEMA' type='String' delimOptional='y' length='3' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                        <FieldFormat name='BGH-IDMSG-ID' type='String' delimOptional='y' length='32' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    </StructFormat>
+                    <StructFormat name='BGH-IDANT' delimOptional='y'>
+                        <FieldFormat name='BGH-IDANT-ESQUEMA' type='String' delimOptional='y' length='3' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                        <FieldFormat name='BGH-IDANT-ID' type='String' delimOptional='y' length='32' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    </StructFormat>
+                    <StructFormat name='BGH-IDOPER' delimOptional='y'>
+                        <FieldFormat name='BGH-IDOPER-ESQUEMA' type='String' delimOptional='y' length='3' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                        <FieldFormat name='BGH-IDOPER-ID' type='String' delimOptional='y' length='32' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    </StructFormat>
+                </StructFormat>
+                <StructFormat name='BGH-MOD' delimOptional='y'>
+                    <FieldFormat name='BGH-MOD-GALICIA' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    <FieldFormat name='BGH-MOD-CONSUMIDOR' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    <FieldFormat name='BGH-MOD-PROVEEDOR' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                </StructFormat>
+                <FieldFormat name='BGH-IP' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                <StructFormat name='BGH-ORI' delimOptional='y'>
+                    <StructFormat name='BGH-ORI-MOD' delimOptional='y'>
+                        <FieldFormat name='BGH-ORI-GALICIA' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                        <FieldFormat name='BGH-ORI-CONSUMIDOR' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                        <FieldFormat name='BGH-ORI-PROVEEDOR' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    </StructFormat>
+                    <FieldFormat name='BGH-ORI-CANAL' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    <StructFormat name='BGH-ORI-ORGA' delimOptional='y'>
+                        <FieldFormat name='BGH-ORI-ORGA-TIPO' type='String' delimOptional='y' length='2' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                        <FieldFormat name='BGH-ORI-ORGA-ID' type='Numeric' delimOptional='y' length='10' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+                    </StructFormat>
+                    <FieldFormat name='BGH-ORI-IP' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    <FieldFormat name='BGH-ORI-TERMINAL' type='String' delimOptional='y' length='10' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    <StructFormat name='BGH-ORI-FECHAYHORA' delimOptional='y'>
+                        <FieldFormat name='BGH-ORI-TIMESTAMP' type='String' delimOptional='y' length='26' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                        <FieldFormat name='BGH-ORI-GMT' type='String' delimOptional='y' length='6' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    </StructFormat>
+                    <StructFormat name='BGH-ORI-CLIENTE' delimOptional='y'>
+                        <FieldFormat name='BGH-ORI-CL-ESQUEMA' type='String' delimOptional='y' length='10' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                        <FieldFormat name='BGH-ORI-CL-ID' type='String' delimOptional='y' length='32' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    </StructFormat>
+                    <FieldFormat name='BGH-ORI-OPERADOR' type='String' delimOptional='y' length='8' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                    <FieldFormat name='BGH-ORI-SUPERVISOR' type='String' delimOptional='y' length='8' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                </StructFormat>
+            </StructFormat>
+        </StructFormat>
+        <StructFormat name='ENT-VISTA-INPUT' delimOptional='y'>
+            <StructFormat name='REG-COMII-INPUT' delimOptional='y'>
+                <StructFormat name='COMII-COMITENTE' delimOptional='y'>
+                    <FieldFormat name='COMII-BANCO' type='Numeric' delimOptional='y' length='3' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+                    <FieldFormat name='COMII-SUCURSAL' type='Numeric' delimOptional='y' length='3' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+                    <FieldFormat name='COMII-NRO-COMITENTE' type='Numeric' delimOptional='y' length='9' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+                </StructFormat>
+                <FieldFormat name='COMII-ESPECIE' type='Numeric' delimOptional='y' length='5' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+                <FieldFormat name='COMII-MONTO-BRUTO' type='Numeric' delimOptional='y' length='17' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+                <FieldFormat name='COMII-MERCADO' type='Numeric' delimOptional='y' length='4' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+                <FieldFormat name='COMII-CANAL' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                <FieldFormat name='COMII-DIVISA' type='Numeric' delimOptional='y' length='2' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+                <FieldFormat name='COMII-TIPO-OPERACION' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default' defaultValue=' ' pad=' '/>
+                <FieldFormat name='COMII-MONTO-NETO' type='Numeric' delimOptional='y' length='17' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+                <FieldFormat name='COMII-PRECIO' type='Numeric' delimOptional='y' length='17' strlenInChars='n' codepage='Default' defaultValue='0' pad='0'/>
+            </StructFormat>
+        </StructFormat>
+    </StructFormat>
+</MessageFormat>]]></con:mfl>
+</con:mflEntry>

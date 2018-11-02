@@ -1,0 +1,129 @@
+(:: pragma bea:global-element-parameter parameter="$capturarInformacionDetalladaCheques_11" element="ns1:CapturarInformacionDetalladaCheques" location="../CapturarInformacionDetalladaChequesRequest-1.0.0.xsd" ::)
+(:: pragma bea:mfl-element-return type="CapturarInformacionDetalladaChequesRequest-1@" location="../MFL/CapturarInformacionDetalladaChequesRequest-1.0.0.mfl" ::)
+
+declare namespace ns2 = "http://ws.bancogalicia.com.ar/webservices/globales/bgbaheader/2_0_0";
+declare namespace ns1 = "http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/capturarinformaciondetalladachequesrequest/1_0_0";
+declare namespace ns0 = "http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/2_0_0";
+declare namespace xf = "http://tempuri.org/AccionesLecturaCheques/XQ/CapturarInformacionDetalladaChequesRequest-1.0.0/";
+
+
+ declare function local:ManejadorFechaToMFL($fechaInput as xs:string) as xs:string
+{
+concat(substring($fechaInput,1,4),substring($fechaInput,6,2),substring($fechaInput,9,2))
+};
+
+
+declare function pad-decimal-to-length 
+($valu as xs:string,$longDec as xs:unsignedInt)  as xs:string {
+let $longValu:=string-length($valu)
+return    
+if ($longValu<$longDec)
+then
+concat($valu , (for $i in 1 to $longDec - $longValu return '0')) 
+else $valu
+} ;
+declare function local:ManejadorImportes($importe as xs:string,
+$cantidadDecimales as xs:string)
+as xs:string {
+if (string-length(substring-before($importe,'.'))=0) then
+concat($importe,pad-decimal-to-length(substring-after($importe,'.'),xs:unsignedInt($cantidadDecimales)))
+else        
+concat(substring-before($importe,'.'),pad-decimal-to-length(substring-after($importe,'.'),xs:unsignedInt($cantidadDecimales)))
+};
+declare function xf:CapturarInformacionDetalladaChequesRequest-1($capturarInformacionDetalladaCheques_11 as element(ns1:CapturarInformacionDetalladaCheques))
+as element() {
+<CapturarInformacionDetalladaChequesRequest-1>
+<RequestPrincipal>
+<BGHEADER>
+<BGH-ID>
+<BGH-IDMSG>
+<BGH-IDMSG-ESQUEMA> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Identificadores/*:IdMensaje/@idEsquema)}</BGH-IDMSG-ESQUEMA>
+<BGH-IDMSG-ID> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Identificadores/*:IdMensaje)}</BGH-IDMSG-ID>
+</BGH-IDMSG>
+<BGH-IDANT>
+<BGH-IDANT-ESQUEMA> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Identificadores/*:IdMensajeAnterior/@idEsquema)}</BGH-IDANT-ESQUEMA>
+<BGH-IDANT-ID> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Identificadores/*:IdMensajeAnterior)}</BGH-IDANT-ID>
+</BGH-IDANT>
+<BGH-IDOPER>
+<BGH-IDOPER-ESQUEMA> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Identificadores/*:IdOperacion/@idEsquema)}</BGH-IDOPER-ESQUEMA>
+<BGH-IDOPER-ID> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Identificadores/*:IdOperacion)}</BGH-IDOPER-ID>
+</BGH-IDOPER>
+</BGH-ID>
+<BGH-MOD>
+<BGH-MOD-GALICIA> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:ModuloAplicativo/*:IdGalicia)}</BGH-MOD-GALICIA>
+<BGH-MOD-CONSUMIDOR> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:ModuloAplicativo/*:IdConsumidor)}</BGH-MOD-CONSUMIDOR>
+<BGH-MOD-PROVEEDOR> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:ModuloAplicativo/*:IdProveedor)}</BGH-MOD-PROVEEDOR>
+</BGH-MOD>
+<BGH-IP> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Equipo/@ip)}</BGH-IP>
+<BGH-ORI>
+<BGH-ORI-MOD>
+<BGH-ORI-GALICIA> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:ModuloAplicativo/*:IdGalicia)}</BGH-ORI-GALICIA>
+<BGH-ORI-CONSUMIDOR> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:ModuloAplicativo/*:IdConsumidor)}</BGH-ORI-CONSUMIDOR>
+<BGH-ORI-PROVEEDOR> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:ModuloAplicativo/*:IdProveedor)}</BGH-ORI-PROVEEDOR>
+</BGH-ORI-MOD>
+<BGH-ORI-CANAL> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:Canal)}</BGH-ORI-CANAL>
+<BGH-ORI-ORGA>
+<BGH-ORI-ORGA-TIPO> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:OrganizacionInterna/@tipo)}</BGH-ORI-ORGA-TIPO>
+<BGH-ORI-ORGA-ID> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:OrganizacionInterna/@id)}</BGH-ORI-ORGA-ID>
+</BGH-ORI-ORGA>
+<BGH-ORI-IP> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:Equipo/@ip)}</BGH-ORI-IP>
+<BGH-ORI-TERMINAL> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:Terminal)}</BGH-ORI-TERMINAL>
+<BGH-ORI-FECHAYHORA>
+<BGH-ORI-TIMESTAMP>{ replace(replace(substring(data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:FechaHoraCreacion),1,26),'T','-'),':','.')}</BGH-ORI-TIMESTAMP>
+
+</BGH-ORI-FECHAYHORA>
+<BGH-ORI-CLIENTE>
+<BGH-ORI-CL-ESQUEMA> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:IdCliente/*:idEsquema)}</BGH-ORI-CL-ESQUEMA>
+<BGH-ORI-CL-ID> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:IdCliente)}</BGH-ORI-CL-ID>
+</BGH-ORI-CLIENTE>
+<BGH-ORI-OPERADOR> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:Operador)}</BGH-ORI-OPERADOR>
+<BGH-ORI-SUPERVISOR> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:Supervision)}</BGH-ORI-SUPERVISOR>
+</BGH-ORI>
+
+<HSWIPDEP-SERVICIO>DEPOCHEQ</HSWIPDEP-SERVICIO>
+<HSWIPDEP-OPERACION>TAONLINE</HSWIPDEP-OPERACION>
+<HSWIDEED-REQ-TX-CAJA> {let $v:=upper-case(data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:RequiereTransaccionDeCaja))
+	return if ($v='TRUE') then 'S' else 'N'}</HSWIDEED-REQ-TX-CAJA>
+<HSWIDEED-NUMERO-TAS>{data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:Terminal)}</HSWIDEED-NUMERO-TAS>
+<HSWIDEED-BOLE-OPER> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/@CodigoOperatoria)}</HSWIDEED-BOLE-OPER>
+<HSWIDEED-BOLE-NUMERO> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Boleta/*:Id)}</HSWIDEED-BOLE-NUMERO>
+<HSWIDEED-BOLE-IMAG-FR> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Boleta/*:NombreImagenFrente)}</HSWIDEED-BOLE-IMAG-FR>
+<HSWIDEED-BOLE-IMAG-DO> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Boleta/*:NombreImagenDorso)}</HSWIDEED-BOLE-IMAG-DO>
+<HSWIDEED-BOLE-IMPORTE> {let $v:=data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:ImporteTotal)
+	return if (fn:boolean($v)) then local:ManejadorImportes($v,"2") else '0'}</HSWIDEED-BOLE-IMPORTE>
+<HSWIDEED-CTA-SUBSIST> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:CuentaDeposito/*:IdCuentaPasivas/*:CodigoSubsistema)}</HSWIDEED-CTA-SUBSIST>
+<HSWIDEED-CTA-NUMERO> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:CuentaDeposito/*:IdCuentaPasivas/*:NumeroCuenta/*:Numero)}</HSWIDEED-CTA-NUMERO>
+<HSWIDEED-CANT-CHEQUES> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/@CantidadCheques)}</HSWIDEED-CANT-CHEQUES>
+<HSWIDEED-LEGAJO>{data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:BGBAHeader/*:Origen/*:Operador)}</HSWIDEED-LEGAJO>
+
+{
+ for $i in (1 to 75) return 
+<HSWIDEED-DATOS>
+<HSWIDEED-CHEQ-BANCO> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/*:Cheque[$i]/*:Banco)}</HSWIDEED-CHEQ-BANCO>
+<HSWIDEED-CHEQ-SUCURSAL> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/*:Cheque[$i]/*:Sucursal)}</HSWIDEED-CHEQ-SUCURSAL>
+
+<HSWIDEED-CHEQ-COD-POST> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/*:Cheque[$i]/*:CodigoPostal)}</HSWIDEED-CHEQ-COD-POST>
+<HSWIDEED-CHEQ-NUMERO> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/*:Cheque[$i]/*:Numero)}</HSWIDEED-CHEQ-NUMERO>
+<HSWIDEED-CHEQ-CUENTA> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/*:Cheque[$i]/*:Cuenta)}</HSWIDEED-CHEQ-CUENTA>
+<HSWIDEED-CHEQ-IMPORTE> {let $v:=data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/*:Cheque[$i]/*:Importe)
+	return if (fn:boolean($v)) then local:ManejadorImportes($v,"2") else '0'}</HSWIDEED-CHEQ-IMPORTE>
+<HSWIDEED-CHEQ-IMAG-FR> {data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/*:Cheque[$i]/*:NombreImagenFrente)}</HSWIDEED-CHEQ-IMAG-FR>
+<HSWIDEED-CHEQ-IMAG-DO>{data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/*:Cheque[$i]/*:NombreImagenDorso)}</HSWIDEED-CHEQ-IMAG-DO>
+<HSWIDEED-CHEQ-F-PRESENTA>
+{ 
+                                let $fecha := (data($capturarInformacionDetalladaCheques_11/*:CapturarInformacionDetalladaChequesRequest/*:Datos/*:Deposito/*:Cheques/*:Cheque[$i]/*:FechaPresentacion)) return
+                                if(string-length($fecha)>0) then(local:ManejadorFechaToMFL($fecha))
+                                else() 
+                                }
+</HSWIDEED-CHEQ-F-PRESENTA>
+</HSWIDEED-DATOS>
+}
+
+</BGHEADER>
+</RequestPrincipal>
+</CapturarInformacionDetalladaChequesRequest-1>
+};
+
+declare variable $capturarInformacionDetalladaCheques_11 as element(ns1:CapturarInformacionDetalladaCheques) external;
+
+xf:CapturarInformacionDetalladaChequesRequest-1($capturarInformacionDetalladaCheques_11)

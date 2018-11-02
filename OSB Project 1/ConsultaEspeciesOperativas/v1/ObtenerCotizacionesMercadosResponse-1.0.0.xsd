@@ -1,0 +1,85 @@
+<!-- edited with XMLSpy v2008 rel. 2 (http://www.altova.com) by mazuki (darksiderg) --><schema targetNamespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosresponse/1_0_0" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0" xmlns:b="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" xmlns:s="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" xmlns:tns="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosresponse/1_0_0">
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0" schemaLocation="../../../Globales/BGBAResultadoOperacion-2.0.0.xsd"/>
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" schemaLocation="../../../Globales/BGBATiposSoporte-3.0.0.xsd"/>
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" schemaLocation="../../../Globales/BGBATiposBase-3.0.0.xsd"/>
+	<element name="ObtenerCotizacionesMercadosResponse">
+		<complexType>
+			<sequence>
+				<element ref="h:BGBAResultadoOperacion"/>
+				<element name="Datos" minOccurs="0">
+					<complexType>
+						<sequence>
+							<element name="Moneda" type="b:codigov2"/>
+							<element name="Plazo" type="b:codigov2"/>
+							<element name="TipoOperacion" type="b:codigov2"/>
+							<element name="MercadoMejorPrecio" type="b:id"/>
+							<element name="DescripcionMercadoMejorPrecio" type="string"/>
+							<element name="MejorPrecio" type="b:montov2"/>
+							<element name="EsMercadoAutomatico" type="b:codigov2"/>
+							<element name="EsMercadoObligatorio" type="b:indicador"/>
+							<element name="EsMercadoSugerido" type="b:indicador"/>
+							<element name="Ofertas" minOccurs="0">
+								<complexType>
+									<sequence>
+										<element name="Oferta" minOccurs="0" maxOccurs="unbounded">
+											<complexType>
+												<sequence>
+													<element name="IdMercado" type="b:id"/>
+													<element name="DescripcionMercado" type="string"/>
+													<element name="PrecioUltimoOperado" type="b:montov2"/>
+													<element name="PrecioCierreAnterior" type="b:montov2"/>
+													<element name="PorcentajeVariacion" type="b:porcentaje"/>
+													<element name="MontoVariacion" type="b:montov2"/>
+													<element name="OfertasCompra" minOccurs="0">
+														<complexType>
+															<sequence>
+																<element name="Volumen1" type="decimal" minOccurs="0"/>
+																<element name="Precio1" type="decimal" minOccurs="0"/>
+																<element name="Volumen2" type="decimal" minOccurs="0"/>
+																<element name="Precio2" type="decimal" minOccurs="0"/>
+																<element name="Volumen3" type="decimal" minOccurs="0"/>
+																<element name="Precio3" type="decimal" minOccurs="0"/>
+																<element name="Volumen4" type="decimal" minOccurs="0"/>
+																<element name="Precio4" type="decimal" minOccurs="0"/>
+																<element name="Volumen5" type="decimal" minOccurs="0"/>
+																<element name="Precio5" type="decimal" minOccurs="0"/>
+															</sequence>
+														</complexType>
+													</element>
+													<element name="OfertasVenta" minOccurs="0">
+														<complexType>
+															<sequence>
+																<element name="Volumen1" type="decimal" minOccurs="0"/>
+																<element name="Precio1" type="decimal" minOccurs="0"/>
+																<element name="Volumen2" type="decimal" minOccurs="0"/>
+																<element name="Precio2" type="decimal" minOccurs="0"/>
+																<element name="Volumen3" type="decimal" minOccurs="0"/>
+																<element name="Precio3" type="decimal" minOccurs="0"/>
+																<element name="Volumen4" type="decimal" minOccurs="0"/>
+																<element name="Precio4" type="decimal" minOccurs="0"/>
+																<element name="Volumen5" type="decimal" minOccurs="0"/>
+																<element name="Precio5" type="decimal" minOccurs="0"/>
+															</sequence>
+														</complexType>
+													</element>
+												</sequence>
+											</complexType>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element ref="h:BGBAResultadoOperacionLog"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="ObtenerCotizacionesMercadosResult">
+		<complexType>
+			<sequence>
+				<element ref="tns:ObtenerCotizacionesMercadosResponse"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

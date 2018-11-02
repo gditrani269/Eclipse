@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<!DOCTYPE MessageFormat SYSTEM 'mfl.dtd'>
+<MessageFormat name='ObtenerCotizacionesMercadosResponseError-1' version='2.01'>
+<StructFormat name='ResponsePrincipal' delimOptional='y'  >
+<StructFormat name='HEADER' delimOptional='y'  >
+<FieldFormat name='BGR-VERSION' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default' />
+<FieldFormat name='BGR-SEVERIDAD' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default' />
+<FieldFormat name='BGR-CODIGO' type='String' delimOptional='y' length='25' strlenInChars='n' codepage='Default' />
+<FieldFormat name='BGR-DESCRIPCION' type='String' delimOptional='y' length='80' strlenInChars='n' codepage='Default' />
+<FieldFormat name='BGR-TIPO' type='String' delimOptional='y' length='8' strlenInChars='n' codepage='Default' />
+</StructFormat>
+</StructFormat>
+ <FieldFormat name='Delimiter' type='String' delimRef='' delim='/' delimOptional='n' codepage='windows-1252'/>
+</MessageFormat>

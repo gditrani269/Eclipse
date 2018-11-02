@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<!DOCTYPE MessageFormat SYSTEM 'mfl.dtd'>
+<MessageFormat name='ObtenerComisionClienteResponse-1' version='2.01'>
+    <StructFormat name='ResponsePrincipal' delimOptional='y'>
+        <StructFormat name='HEADER' delimOptional='y'>
+            <FieldFormat name='BGR-VERSION' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-SEVERIDAD' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-CODIGO' type='String' delimOptional='y' length='25' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-DESCRIPCION' type='String' delimOptional='y' length='80' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-TIPO' type='String' delimOptional='y' length='8' strlenInChars='n' codepage='Default'/>
+        </StructFormat>
+        <StructFormat name='SAL-DATOS' delimOptional='y' optional='y'>
+            <StructFormat name='REG-COMIO-OUTPUT' delimOptional='y'>
+                <FieldFormat name='COMIO-RETORNO' type='String' delimOptional='y' length='2' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='COMIO-MENSAJE-ERROR' type='String' delimOptional='y' length='50' strlenInChars='n' codepage='Default'/>
+                <StructFormat name='COMIO-LIQ-MON-OP' delimOptional='y'>
+                    <FieldFormat name='COMIO-MONEDA-LIQ' type='String' delimOptional='y' length='2' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-COMISION-BANCO' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-COM-BCO-BON-CAN' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-COM-BCO-BON-CLIE' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-COMISION-AGENTE' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-DERECHO-MERCADO' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-DERECHO-BOLSA' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-IVA-1' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-IVA-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-IVA-3' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-RENTA-FINANCIERA' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-OTRAS-COMISIONES' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-NETO' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-TOTAL-GASTOS' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <StructFormat name='COMIO-CUENTA-MERCADO' delimOptional='y'>
+                        <FieldFormat name='COMIO-NRO-CUENTA' type='String' delimOptional='y' length='9' strlenInChars='n' codepage='Default'/>
+                        <FieldFormat name='COMIO-DIGITO-1' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                        <FieldFormat name='COMIO-SUC-CUENTA' type='String' delimOptional='y' length='3' strlenInChars='n' codepage='Default'/>
+                        <FieldFormat name='COMIO-DIGITO-2' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                        <FieldFormat name='COMIO-TIPO-CUENTA' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                    </StructFormat>
+                </StructFormat>
+                <StructFormat name='COMIO-LIQ-MON-2' delimOptional='y'>
+                    <FieldFormat name='COMIO-MONEDA-OPE-2' type='String' delimOptional='y' length='2' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-COMISION-BANCO-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-COM-BCO-BON-CAN-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-COM-BCO-BON-CLIE-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-COMISION-AGENTE-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-DERECHO-MERCADO-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-DERECHO-BOLSA-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-IVA-1-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-IVA-2-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-IVA-3-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-RENTA-FINANCIERA-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-OTRAS-COMISIONES-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-NETO-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-TOTAL-GASTOS-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                    <StructFormat name='COMIO-CUENTA-MERCADO-2' delimOptional='y'>
+                        <FieldFormat name='COMIO-NRO-CUENTA-2' type='String' delimOptional='y' length='9' strlenInChars='n' codepage='Default'/>
+                        <FieldFormat name='COMIO-DIGITO-1-2' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                        <FieldFormat name='COMIO-SUC-CUENTA-2' type='String' delimOptional='y' length='3' strlenInChars='n' codepage='Default'/>
+                        <FieldFormat name='COMIO-DIGITO-2-2' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                        <FieldFormat name='COMIO-TIPO-CUENTA-2' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                    </StructFormat>
+                    <FieldFormat name='COMIO-TIPO-CAMBIO-2' type='String' delimOptional='y' length='9' strlenInChars='n' codepage='Default'/>
+                </StructFormat>
+                <FieldFormat name='COMIO-PERFIL-IVA' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='COMIO-NUM-OPER-MERCADO' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='COMIO-CANTIDAD' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='COMIO-LIMITE-MIN-CAN' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='COMIO-LIMITE-MAX-CAN' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                <StructFormat name='COMIO-PORCENTAJES' delimOptional='y'>
+                    <FieldFormat name='COMIO-PORC-DER-MERCADO' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-DER-BOLSA' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-COM-AGENTE' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-COM-BANCO' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-OTROS-GASTOS' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-IVA1' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-IVA2' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-IVA3' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-BONI-CANAL' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-BONI-CLIEN' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='COMIO-PORC-RENTA-FINANCIERA' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                </StructFormat>
+            </StructFormat>
+        </StructFormat>
+    </StructFormat>
+    <FieldFormat name='Delimiter' type='String' delimRef='' delim='/' delimOptional='n' codepage='windows-1252'/>
+</MessageFormat>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:wsdlEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
+    <con:wsdl><![CDATA[<wsdl:definitions name="ConsultaEspeciesOperativas" targetNamespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/1_0_0" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/1_0_0" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ro="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0" xmlns:xsd1="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/listarespeciesrequest/1_0_0" xmlns:xsd2="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/listarespeciesresponse/1_0_0" xmlns:xsd3="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienterequest/1_0_0" xmlns:xsd4="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienteresponse/1_0_0" xmlns:xsd5="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosrequest/1_0_0" xmlns:xsd6="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosresponse/1_0_0">
+	<wsdl:types>
+		<xsd:schema>
+			<xsd:import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0" schemaLocation="../../../Globales/BGBAResultadoOperacion-2.0.0.xsd"/>
+			<xsd:import namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/listarespeciesrequest/1_0_0" schemaLocation="ListarEspeciesRequest-1.0.0.xsd">
+			</xsd:import>
+			<xsd:import namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienterequest/1_0_0" schemaLocation="ObtenerComisionClienteRequest-1.0.0.xsd">
+			</xsd:import>
+			<xsd:import namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosrequest/1_0_0" schemaLocation="ObtenerCotizacionesMercadosRequest-1.0.0.xsd">
+			</xsd:import>
+			<xsd:import namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/listarespeciesresponse/1_0_0" schemaLocation="ListarEspeciesResponse-1.0.0.xsd">
+			</xsd:import>
+			<xsd:import namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienteresponse/1_0_0" schemaLocation="ObtenerComisionClienteResponse-1.0.0.xsd">
+			</xsd:import>
+			<xsd:import namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosresponse/1_0_0" schemaLocation="ObtenerCotizacionesMercadosResponse-1.0.0.xsd">
+			</xsd:import>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="ListarEspeciesRequest">
+		<wsdl:part element="xsd1:ListarEspecies" name="parameters"/>
+	</wsdl:message>
+	<wsdl:message name="ListarEspeciesResponse">
+		<wsdl:part element="xsd2:ListarEspeciesResult" name="parameters"/>
+	</wsdl:message>
+	<wsdl:message name="ObtenerComisionClienteRequest">
+		<wsdl:part element="xsd3:ObtenerComisionCliente" name="parameters"/>
+	</wsdl:message>
+	<wsdl:message name="ObtenerComisionClienteResponse">
+		<wsdl:part element="xsd4:ObtenerComisionClienteResult" name="parameters"/>
+	</wsdl:message>
+	<wsdl:message name="ObtenerCotizacionesMercadosRequest">
+		<wsdl:part element="xsd5:ObtenerCotizacionesMercados" name="parameters"/>
+	</wsdl:message>
+	<wsdl:message name="ObtenerCotizacionesMercadosResponse">
+		<wsdl:part element="xsd6:ObtenerCotizacionesMercadosResult" name="parameters"/>
+	</wsdl:message>
+	<wsdl:message name="BGBAResultadoOperacionFalla">
+		<wsdl:documentation/>
+		<wsdl:part name="BGBAResultadoOperacionFalla" element="ro:BGBAResultadoOperacionFalla"/>
+	</wsdl:message>
+	<wsdl:portType name="ConsultaEspeciesOperativas">
+		<wsdl:operation name="ListarEspecies">
+			<wsdl:input message="tns:ListarEspeciesRequest"/>
+			<wsdl:output message="tns:ListarEspeciesResponse"/>
+			<wsdl:fault name="BGBAResultadoOperacionFalla" message="tns:BGBAResultadoOperacionFalla"/>
+		</wsdl:operation>
+		<wsdl:operation name="ObtenerComisionCliente">
+			<wsdl:input message="tns:ObtenerComisionClienteRequest"/>
+			<wsdl:output message="tns:ObtenerComisionClienteResponse"/>
+			<wsdl:fault name="BGBAResultadoOperacionFalla" message="tns:BGBAResultadoOperacionFalla"/>
+		</wsdl:operation>
+		<wsdl:operation name="ObtenerCotizacionesMercados">
+			<wsdl:input message="tns:ObtenerCotizacionesMercadosRequest"/>
+			<wsdl:output message="tns:ObtenerCotizacionesMercadosResponse"/>
+			<wsdl:fault name="BGBAResultadoOperacionFalla" message="tns:BGBAResultadoOperacionFalla"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="ConsultaEspeciesOperativas" type="tns:ConsultaEspeciesOperativas">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="ListarEspecies">
+			<soap:operation soapAction="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/listarespecies"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="BGBAResultadoOperacionFalla">
+				<soap:fault use="literal" name="BGBAResultadoOperacionFalla"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="ObtenerComisionCliente">
+			<soap:operation soapAction="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisioncliente"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="BGBAResultadoOperacionFalla">
+				<soap:fault use="literal" name="BGBAResultadoOperacionFalla"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="ObtenerCotizacionesMercados">
+			<soap:operation soapAction="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercados"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="BGBAResultadoOperacionFalla">
+				<soap:fault use="literal" name="BGBAResultadoOperacionFalla"/>
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="ConsultaEspeciesOperativas">
+		<wsdl:port binding="tns:ConsultaEspeciesOperativas" name="ConsultaEspeciesOperativas">
+			<soap:address location="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/1_0_0"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>]]></con:wsdl>
+    <con:dependencies>
+        <con:schemaRef isInclude="false" schemaLocation="ObtenerCotizacionesMercadosResponse-1.0.0.xsd" namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosresponse/1_0_0" ref="OSB Project 1/ConsultaEspeciesOperativas/v1/ObtenerCotizacionesMercadosResponse-1.0.0"/>
+        <con:schemaRef isInclude="false" schemaLocation="ListarEspeciesResponse-1.0.0.xsd" namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/listarespeciesresponse/1_0_0" ref="OSB Project 1/ConsultaEspeciesOperativas/v1/ListarEspeciesResponse-1.0.0"/>
+        <con:schemaRef isInclude="false" schemaLocation="ObtenerComisionClienteRequest-1.0.0.xsd" namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienterequest/1_0_0" ref="OSB Project 1/ConsultaEspeciesOperativas/v1/ObtenerComisionClienteRequest-1.0.0"/>
+        <con:schemaRef isInclude="false" schemaLocation="ListarEspeciesRequest-1.0.0.xsd" namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/listarespeciesrequest/1_0_0" ref="OSB Project 1/ConsultaEspeciesOperativas/v1/ListarEspeciesRequest-1.0.0"/>
+        <con:schemaRef isInclude="false" schemaLocation="../../../Globales/BGBAResultadoOperacion-2.0.0.xsd" namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0" ref="Globales/BGBAResultadoOperacion-2.0.0"/>
+        <con:schemaRef isInclude="false" schemaLocation="ObtenerCotizacionesMercadosRequest-1.0.0.xsd" namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosrequest/1_0_0" ref="OSB Project 1/ConsultaEspeciesOperativas/v1/ObtenerCotizacionesMercadosRequest-1.0.0"/>
+        <con:schemaRef isInclude="false" schemaLocation="ObtenerComisionClienteResponse-1.0.0.xsd" namespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienteresponse/1_0_0" ref="OSB Project 1/ConsultaEspeciesOperativas/v1/ObtenerComisionClienteResponse-1.0.0"/>
+    </con:dependencies>
+    <con:targetNamespace>http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/1_0_0</con:targetNamespace>
+</con:wsdlEntry>

@@ -1,0 +1,54 @@
+(:: pragma bea:mfl-element-parameter parameter="$capturarInformacionDetalladaChequesResponse_11" type="CapturarInformacionDetalladaChequesResponse-1@" location="../MFL/CapturarInformacionDetalladaChequesResponse-1.0.0.mfl" ::)
+(:: pragma bea:global-element-return element="ns0:CapturarInformacionDetalladaChequesResult" location="../CapturarInformacionDetalladaChequesResponse-1.0.0.xsd" ::)
+
+declare namespace ns1 = "http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0";
+declare namespace ns0 = "http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/capturarinformaciondetalladachequesresponse/1_0_0";
+declare namespace xf = "http://tempuri.org/AccionesLecturaCheques/XQ/CapturarInformacionDetalladaChequesResponse-1.0.0/";
+declare namespace ns2 = "http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/2_0_0";
+
+
+ declare function local:ManejadorFechaToXML($fechaInput as xs:string) as xs:string
+{
+concat(substring($fechaInput,1,4),'-',substring($fechaInput,5,2),'-',substring($fechaInput,7,2))
+};
+
+
+declare function local:ManejadorImportesResp($importe as xs:string,
+$cantidadDecimales as xs:string)
+as xs:string {
+let $longitud:=string-length($importe)
+return
+concat(xs:decimal(substring($importe,1,$longitud - xs:int($cantidadDecimales))),'.',substring($importe,$longitud+1-xs:int($cantidadDecimales)))
+};
+
+declare function xf:CapturarInformacionDetalladaChequesResponse-1($capturarInformacionDetalladaChequesResponse_11 as element())
+as element(ns0:CapturarInformacionDetalladaChequesResult) {
+<ns0:CapturarInformacionDetalladaChequesResult>
+<ns0:CapturarInformacionDetalladaChequesResponse>
+<ns1:BGBAResultadoOperacion>
+<ns1:Severidad>ERROR</ns1:Severidad>
+<ns1:Codigo> {data($capturarInformacionDetalladaChequesResponse_11/ResponsePrincipal/HEADER/BGR-CODIGO)}</ns1:Codigo>
+<ns1:Descripcion> {data($capturarInformacionDetalladaChequesResponse_11/ResponsePrincipal/HEADER/BGR-DESCRIPCION)}</ns1:Descripcion>
+<ns1:Tipo> {data($capturarInformacionDetalladaChequesResponse_11/ResponsePrincipal/HEADER/BGR-TIPO)}</ns1:Tipo>
+</ns1:BGBAResultadoOperacion>
+
+<ns1:BGBAResultadoOperacionLog>
+{
+    for $BGLOG at $posic in $capturarInformacionDetalladaChequesResponse_11/ResponsePrincipal/ERROR-ABORT/BGLOG
+    where ($posic<=xs:int($capturarInformacionDetalladaChequesResponse_11/ResponsePrincipal/ERROR-ABORT/BGLOG-OCCURRENCES)) 
+    return
+        <ns1:LogItem>
+            <ns1:Severidad>ERROR</ns1:Severidad>
+            <ns1:Codigo>{ data($BGLOG/BGR-CODIGO) }</ns1:Codigo>
+            <ns1:Descripcion>{ data($BGLOG/BGR-DESCRIPCION) }</ns1:Descripcion>
+            <ns1:Tipo>{ data($BGLOG/BGR-TIPO) }</ns1:Tipo>
+        </ns1:LogItem>
+}
+</ns1:BGBAResultadoOperacionLog>
+</ns0:CapturarInformacionDetalladaChequesResponse></ns0:CapturarInformacionDetalladaChequesResult>
+
+};
+
+declare variable $capturarInformacionDetalladaChequesResponse_11 as element() external; 
+
+xf:CapturarInformacionDetalladaChequesResponse-1($capturarInformacionDetalladaChequesResponse_11)

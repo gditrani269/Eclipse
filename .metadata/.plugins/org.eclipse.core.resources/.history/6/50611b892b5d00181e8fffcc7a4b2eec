@@ -1,0 +1,113 @@
+import java.io.*;
+//"C:\Program Files (x86)\Java\jre1.8.0_171\bin\java" -jar C:\Users\l0646482\n\mi_desa\Eclipse\CustomUpDate\CustomUpDate.jar
+public class HandleCustom {
+    public static void main(String[] args) {
+        File archivo = null;
+        FileReader fr = null;
+        BufferedReader br = null;
+        String sCustom = null;
+        String sOperacion = null;
+        String sURI = null;
+
+        Integer iCountOperacion = 0;
+        for (String s: args) {
+ //           System.out.println(s);
+        }
+        if (args.length > 2) {
+	        sCustom = args [0];
+	        sOperacion = args [1];
+	        sURI = args [2];
+        }
+        String sTmpCaracteresEspeciales = null;
+        sTmpCaracteresEspeciales = sURI.replaceAll("&","&amp;");
+        sURI = sTmpCaracteresEspeciales.replaceAll(" ","%20");
+//        sURI = sTmpCaracteresEspeciales;
+        
+        System.out.println (sCustom);
+        
+        String expresionRegular  = "hola soy la primera";
+        String cadena = "hola";
+        String nombre = "Typing Code";
+        String buscar = "pisng";
+        System.out.println("Se encontro la coincidencia ping a partir de la posición "+nombre.indexOf(buscar));
+
+      
+        
+        try {
+           // Apertura del fichero y creacion de BufferedReader para poder
+           // hacer una lectura comoda (disponer del metodo readLine()).
+//           archivo = new File ("C:\\Users\\l0646482\\n\\mi_desa\\Eclipse\\CustomUpDate\\sasa.txt");
+           archivo = new File (sCustom);
+           fr = new FileReader (archivo);
+           br = new BufferedReader(fr);
+
+           // Lectura del fichero
+           String linea;
+           String nombrecambiado;
+           String sUriOriginal = null;
+           boolean bReemplazar = false;
+
+           while((linea=br.readLine())!=null) {
+        	   if (iCountOperacion==3) {
+            	   nombrecambiado=linea.replaceAll("&","&amp;");
+            	   Integer iTagClose = nombrecambiado.indexOf('>');
+        		   Integer iTagOpen = nombrecambiado.indexOf('<',iTagClose);
+                   System.out.println(nombrecambiado.substring(iTagClose+1, iTagOpen));
+                   sUriOriginal = nombrecambiado.substring(iTagClose+1, iTagOpen);
+                   bReemplazar = true;
+        	   }
+        	   if (iCountOperacion==2) iCountOperacion++;
+        	   if (linea.indexOf(sOperacion)!=-1) iCountOperacion++;
+        	   
+        	   
+//        	   nombrecambiado=linea.replaceAll("&","&amp;");
+//               System.out.println(nombrecambiado);
+           }
+           br.close();
+           archivo = new File (sCustom);
+           fr = new FileReader (archivo);
+           br = new BufferedReader(fr);
+ 
+           FileWriter fichero = null;
+           PrintWriter pw = null;
+           System.out.println (sCustom+".bck");
+           fichero = new FileWriter(sCustom+".bck");
+           pw = new PrintWriter(fichero);
+
+           
+           
+           String sUriNew = null;
+           
+           if (bReemplazar==true) {
+               while((linea=br.readLine())!=null) {
+            	   nombrecambiado=linea.replaceAll("&","&amp;");
+            	   nombrecambiado=linea.replaceAll(" ","%20");
+            	   if (linea.indexOf(sUriOriginal)!=-1) {
+            		   System.out.println ("Encontro la URI");
+            		   System.out.println(linea);
+            		   System.out.println (linea.replaceAll(sUriOriginal,sURI));
+//                       System.out.println(nombrecambiado.substring(iTagClose+1, iTagOpen));
+            		   pw.println(linea.replaceAll(sUriOriginal,sURI));
+            	   } else {
+            		   pw.println(linea);
+            	   }
+                }
+           }
+        }
+        catch(Exception e){
+           e.printStackTrace();
+        }finally{
+           // En el finally cerramos el fichero, para asegurarnos
+           // que se cierra tanto si todo va bien como si salta 
+           // una excepcion.
+           try{                    
+              if( null != fr ){   
+                 fr.close();     
+              }                  
+           }catch (Exception e2){ 
+              e2.printStackTrace();
+           }
+        }
+    }
+
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mflEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
+    <con:mfl><![CDATA[<?xml version='1.0' encoding='windows-1252'?>
+<!DOCTYPE MessageFormat SYSTEM 'mfl.dtd'>
+<MessageFormat name='ListarEspeciesResponseError-1' version='2.01'>
+    <StructFormat name='ResponsePrincipal' delimOptional='y'>
+        <StructFormat name='HEADER' delimOptional='y'>
+            <FieldFormat name='BGR-VERSION' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-SEVERIDAD' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-CODIGO' type='String' delimOptional='y' length='25' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-DESCRIPCION' type='String' delimOptional='y' length='80' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-TIPO' type='String' delimOptional='y' length='8' strlenInChars='n' codepage='Default'/>
+        </StructFormat>
+        <StructFormat name='SAL-DATOS' delimOptional='y'>
+            <FieldFormat name='LIESO-INDICADOR-RELLAMADO' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='LIESO-ESPECIE-RELLAMADO' type='String' delimOptional='y' length='5' strlenInChars='n' codepage='Default' pad='0' trimLeading='0'/>
+            <StructFormat name='LIESO-LISTA-ESPECIES' delimOptional='y' repeat='48'>
+                <FieldFormat name='LIESO-DENOMINACION' type='String' delimOptional='y' length='50' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-ESPECIE-CV' type='String' delimOptional='y' length='5' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-CODIGO-MAE' type='String' delimOptional='y' length='4' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-CODIGO-BYMA' type='String' delimOptional='y' length='10' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-PLAZO-DEFAULT' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-PLAZO-CI' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-PLAZO-24' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-PLAZO-48' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-PLAZO-72' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-PLAZO-96' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-PLAZO-120' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-DIVISA-EMISION' type='String' delimOptional='y' length='2' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-OPERATIVIDAD-PESOS' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-OPERATIVIDAD-DOLARES' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='LIESO-CARAC' type='String' delimOptional='y' length='2' strlenInChars='n' codepage='Default'/>
+            </StructFormat>
+        </StructFormat>
+    </StructFormat>
+    <FieldFormat name='Delimiter' type='String' delimRef='' delim='/' delimOptional='n' codepage='windows-1252'/>
+</MessageFormat>]]></con:mfl>
+</con:mflEntry>

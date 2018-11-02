@@ -1,0 +1,47 @@
+<schema targetNamespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienterequest/1_0_0" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://ws.bancogalicia.com.ar/webservices/globales/bgbaheader/2_0_0" xmlns:b="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" xmlns:s="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" xmlns:tns="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienterequest/1_0_0">
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbaheader/2_0_0" schemaLocation="../../../Globales/BGBAHeader-2.0.0.xsd"/>
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" schemaLocation="../../../Globales/BGBATiposSoporte-3.0.0.xsd"/>
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" schemaLocation="../../../Globales/BGBATiposBase-3.0.0.xsd"/>
+	<element name="ObtenerComisionClienteRequest">
+		<complexType>
+			<sequence>
+				<element ref="h:BGBAHeader"/>
+				<element name="Datos">
+					<complexType>
+						<sequence>
+							<element name="BancoCuentaComitente" type="int">
+							</element>
+							<element name="SucursalCuentaComitente" type="int">
+							</element>
+							<element name="NumeroCuentaComitente" type="unsignedLong">
+							</element>
+							<element name="Especie" type="int">
+							</element>
+							<element name="Montobruto" type="decimal">
+							</element>
+							<element name="Mercado" type="int">
+							</element>
+							<element name="Canal" type="string">
+							</element>
+							<element name="Divisa" type="int">
+							</element>
+							<element name="TipoOperacion" type="string">
+							</element>
+							<element name="MontoNeto" type="decimal">
+							</element>
+							<element name="Precio" type="decimal">
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="ObtenerComisionCliente">
+		<complexType>
+			<sequence>
+				<element ref="tns:ObtenerComisionClienteRequest"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

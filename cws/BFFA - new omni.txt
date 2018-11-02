@@ -1,0 +1,189 @@
+Solicitante: Patricio Cingolani
+https://trello.com/c/KezMZVMC
+
+No están catalogados, se tiene un mail con el OK de los proveedores.
+La catalogación se irá realizando en la medida que lleguen los contratos.
+
+Sigla: BFFA
+
+HOMO: NUEVO
+
+/accionesatencionsucursales/basica
+/accionescanalesalternativos/v2/basica
+/accionescontratoplazofijo/basica
+/accionescuentaempresas/basica
+/accionescuentaempresas/v2/basica
+/accionescuentascomitentes/basica
+/accionesdatosbiometricos/basica
+/accionesencuestaperfilinversor/basica
+/accioneslecturacheques/basica
+/accioneslimitestransferencias/basica
+/accionesmetodosautenticacion/basica
+/accionesmonedaextranjera/basica
+/accionesnovedadesdebinbt/basica
+/accionesnovedadesdebingo/basica
+/accionesoperatoriapagomiscuentas/basica
+/accionespromocionescliente/basica
+/accionesstopdebit/basica
+/accionestarjetacoordenadas/v2/basica
+/accionestarjetacredito/basica
+/accionestokensms/basica
+/accionestransferencias/basica
+/accionesvalidacionbanelco/basica
+
+
+/accionesvalidacioncuenta/basica
+/administracionaliascbu/basica
+/administraciondatosbiometricos/basica
+/administraciontransferencias/basica
+/consultaaliascbu/basica
+/consultaatencionsucursales/basica
+/consultacajerosbanelco/basica
+/consultacategoriasoperaciones/basica
+/consultaclientecanalesalternativos/basica
+/consultacondicionesoperatoriadebin/basica
+/consultaindicadorestarjetas/basica
+/queryaccountcontract/v3/basica
+/consultacontratofidelizacion/v4/basica
+/consultacontratoprestamo/v2/basica
+/consultacuentaempresas/basica
+/consultacuentaempresas/v2/basica
+/consultacuentascomitentes/basica
+/consultacuentascomitentesomnichannel/basica
+/consultacuentasmonetarias/basica
+/consultadatosbiometricos/basica
+
+
+/consultadeudacontratoprestamo/v2/basica
+/managebankaccountstatement/basica
+/consultalimitestransferencias/basica
+/managebankaccountpaymentitems/basica
+/consultamovimientostarjeta/basica
+/consultaoperatoriapagomiscuentas/basica
+/consultaposicion/v3/basica
+/consultapromociones/basica
+/consultaresumentarjeta/basica
+/consultasaldocuenta/basica
+/consultatarjetacreditomastercard/basica
+/consultatarjetascredito/basica
+/consultatransferencias/basica
+impresionderesumenes/obtenerdatosresumentarjetacredito/basica
+/queryfixtermdepositcontract/basica		a secas, nombre del archivo: ConsultaContratoPlazoFijo-1.1.0_Basica
+queryloancontract						a secas, nombre del archivo: ConsultaContratoPrestamo-1.0.0_Basica
+/queryloancontractbalance			a secas, nombre del archivo: ConsultaDeudaContratoPrestamo-1.0.0_Basica
+
+
+/consultatasasplazofijo/basica		es everyone
+
+
+-------------------------------------------------------------
+PROD
+
+/accionesatencionsucursales/basica
+/accionescanalesalternativos/v2/basica
+/accionescontratoplazofijo/basica
+/accionescuentaempresas/basica
+/accionescuentaempresas/v2/basica
+/accionesdatosbiometricos/basica
+/accionesencuestaperfilinversor/basica
+/accioneslecturacheques/basica
+/accioneslimitestransferencias/basica
+/accionesmetodosautenticacion/basica
+/accionesmonedaextranjera/basica
+/accionesnovedadesdebinbt/basica
+/accionesnovedadesdebingo/basica
+/accionespromocionescliente/basica
+/accionesstopdebit/basica
+/accionestarjetacoordenadas/v2/basica
+/accionestarjetacredito/basica
+/accionestokensms/basica
+
+
+/accionesvalidacioncuenta/basica
+/administracionaliascbu/basica
+/administraciondatosbiometricos/basica
+/administraciontransferencias/basica
+/consultaaliascbu/basica
+/consultaatencionsucursales/basica
+/consultacajerosbanelco/basica
+/consultacategoriasoperaciones/basica
+/consultaclientecanalesalternativos/basica
+/consultacondicionesoperatoriadebin/basica
+/consultaindicadorestarjetas/basica
+/queryaccountcontract/v3/basica
+/consultacontratofidelizacion/v4/basica
+/consultacontratoprestamo/v2/basica
+/consultacuentaempresas/basica
+/consultacuentaempresas/v2/basica
+/consultacuentascomitentes/basica
+/consultacuentascomitentesomnichannel/basica
+/consultacuentasmonetarias/basica
+/consultadatosbiometricos/basica
+
+
+/consultadeudacontratoprestamo/v2/basica
+/managebankaccountstatement/basica
+/consultalimitestransferencias/basica
+/managebankaccountpaymentitems/basica
+/consultamovimientostarjeta/basica
+/consultaposicion/v3/basica
+/consultapromociones/basica
+/consultaresumentarjeta/basica
+/consultasaldocuenta/basica
+/consultatarjetacreditomastercard/basica
+/consultatarjetascredito/basica
+/consultatransferencias/basica
+impresionderesumenes/obtenerdatosresumentarjetacredito/basica
+/queryfixtermdepositcontract/basica		a secas, nombre del archivo: ConsultaContratoPlazoFijo-1.1.0_Basica
+queryloancontract						a secas, nombre del archivo: ConsultaContratoPrestamo-1.0.0_Basica
+/queryloancontractbalance			a secas, nombre del archivo: ConsultaDeudaContratoPrestamo-1.0.0_Basica
+
+
+
+/accionesoperatoriapagomiscuentas/basica	es everyone
+/accionestransferencias/basica				es everyone
+/accionesvalidacionbanelco/basica			es everyone
+/consultaoperatoriapagomiscuentas/basica	es everyone
+/accionescuentascomitentes/basica		es everyone
+/consultatasasplazofijo/basica		es everyone
+
+-----------------------------------------------------------------------------------------------------
+
+Segunda tanda:
+
+HOMO
+/accionesevaluacionriesgo/basica
+/accionesperfilinversor/basica
+/accionesseguridadomnichannel/basica
+/accionestransferencias/v2/basica		a secas
+/consultacliente/5_0_0/basica
+/consultaencuestaperfilinversor/basica
+/consultaespecies/basica
+/consultaperfilinversor/basica
+
+/impresionderesumenes/basica			es everyone
+
+
+
+PROD
+
+/accionesperfilinversor/basica
+/accionesseguridadomnichannel/basica
+/accionestransferencias/v2/basica		a secas
+/consultacliente/5_0_0/basica
+/consultaencuestaperfilinversor/basica
+/consultaespecies/basica
+/consultaperfilinversor/basica
+
+/impresionderesumenes/basica			es everyone
+
+/accionesevaluacionriesgo/basica		aun no esta en prod
+
+
+Acciones Canales Alternativos 2.0.0 
+Consulta Especies
+Acciones Moneda Extranjera
+
+
+50903		homo
+

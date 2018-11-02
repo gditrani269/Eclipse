@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+ xmlns:tns="http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/1_0_0"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:ro="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0"
+	name="AccionesLecturaCheques" targetNamespace="http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/1_0_0"
+	xmlns:xsd1="http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/capturarinformaciondetalladachequesrequest/1_0_0"	xmlns:xsd2="http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/capturarinformaciondetalladachequesresponse/1_0_0">
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			xmlns:ro="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0">
+			<xsd:import				namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0"				schemaLocation="../../../Globales/BGBAResultadoOperacion-2.0.0.xsd" />
+			<xsd:import namespace="http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/capturarinformaciondetalladachequesrequest/1_0_0" schemaLocation="CapturarInformacionDetalladaChequesRequest-1.0.0.xsd">			</xsd:import>
+			<xsd:import				namespace="http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/capturarinformaciondetalladachequesresponse/1_0_0"				schemaLocation="CapturarInformacionDetalladaChequesResponse-1.0.0.xsd">			</xsd:import>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="CapturarInformacionDetalladaChequesRequest">
+		<wsdl:part element="xsd1:CapturarInformacionDetalladaCheques"	name="parameters" />
+	</wsdl:message>
+	<wsdl:message name="CapturarInformacionDetalladaChequesResponse">
+		<wsdl:part element="xsd2:CapturarInformacionDetalladaChequesResult"	name="parameters" />
+	</wsdl:message>
+	<wsdl:message name="BGBAResultadoOperacionFalla">
+		<wsdl:documentation />
+		<wsdl:part name="BGBAResultadoOperacionFalla"
+			element="ro:BGBAResultadoOperacionFalla" />
+	</wsdl:message>
+	<wsdl:portType name="AccionesLecturaCheques">
+		<wsdl:operation name="CapturarInformacionDetalladaCheques">
+			<wsdl:input				message="tns:CapturarInformacionDetalladaChequesRequest" />
+			<wsdl:output				message="tns:CapturarInformacionDetalladaChequesResponse" />
+			<wsdl:fault name="BGBAResultadoOperacionFalla"				message="tns:BGBAResultadoOperacionFalla" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="AccionesLecturaCheques"		type="tns:AccionesLecturaCheques">		<soap:binding style="document"			transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="CapturarInformacionDetalladaCheques">
+			<soap:operation				soapAction="http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/capturarinformaciondetalladacheques" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+ <wsdl:fault name="BGBAResultadoOperacionFalla"><soap:fault use="literal"	name="BGBAResultadoOperacionFalla"	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" /></wsdl:fault>		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="AccionesLecturaCheques">
+		<wsdl:port binding="tns:AccionesLecturaCheques"			name="AccionesLecturaCheques">
+			<soap:address				location="http://ws.bancogalicia.com.ar/webservices/accioneslecturacheques/1_0_0" />
+		</wsdl:port>
+	</wsdl:service></wsdl:definitions>

@@ -1,0 +1,135 @@
+Iniciando verificacion de datos
+ID SOA a verificar: 1900
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1107
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&ID=971&ContentTypeID=0x010069C1EDA09E13FD4C917ED999A5F81810
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesActividadesPortalEmpresas
+La URL de prod es:  /accionesactividadesportalempresas/basica
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1108
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&ID=972&ContentTypeID=0x010069C1EDA09E13FD4C917ED999A5F81810
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesActividadesPortalEmpresas
+La URL de prod es:  /accionesactividadesportalempresas/basica
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1109
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&ID=969&ContentTypeID=0x010069C1EDA09E13FD4C917ED999A5F81810
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: ConsultaActividadPortalEmpresa
+La URL de prod es:  http://osb.bancogalicia.com.ar/consultaactividadportalempresa/basica
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1110
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&ID=973&ContentTypeID=0x010069C1EDA09E13FD4C917ED999A5F81810
+Los consumidores de la operacion son:
+
+consumidores: 137;#GORM - Galicia Office [RM]",
+GORM - Galicia Office [RM]
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: ConsultaActividadPortalEmpresa
+La URL de prod es:  http://osb.bancogalicia.com.ar/consultaactividadportalempresa/basica
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1111
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=849&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 204;#MYGE - Gestion de Excesos",
+MYGE - Gestion de Excesos
+El framework es: ABMCInfoClientes
+Nombre Tecnico del Servicio: ConsultaAsignacionCrediticiaBancaMayorista
+La URL de prod es:  /consultaasignacioncrediticiabancamayorista/basica
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1112
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=850&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 204;#MYGE - Gestion de Excesos",
+MYGE - Gestion de Excesos
+El framework es: ABMCInfoClientes
+Nombre Tecnico del Servicio: ConsultaAsignacionCrediticiaBancaMayorista
+La URL de prod es:  /consultaasignacioncrediticiabancamayorista/basica
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1113
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=851
+Los consumidores de la operacion son:
+
+consumidores: 115;#PASI - Atenuaciones de Comisiones de Cuentas [RM]",
+PASI - Atenuaciones de Comisiones de Cuentas [RM]
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: ConsultaCuenta
+La URL de prod es:  /servicioscomunesproductos/consultacuenta/basica
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1114
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=852&Source=http%3A%2F%2Fecc%2Ebancogalicia%2Ecom%2Ear%2Fsites%2Fac%2Fsoa%2FLists%2FCatlogo%2520Operaciones%2520WS%2FCatlogo%2520de%2520Operaciones%2520WS%2Easpx
+Los consumidores de la operacion son:
+
+consumidores: 213;#EXMS - Modulo de Seguimiento Comex ",
+EXMS - Modulo de Seguimiento Comex 
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesActividadesPortalEmpresas
+La URL de prod es:  /accionesactividadesportalempresas/basica
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1115
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20WS/DispForm.aspx?ID=853
+Los consumidores de la operacion son:
+
+consumidores: 168;#NJRM - Compra de Cheques ",
+NJRM - Compra de Cheques 
+El framework es: ProcesamientoTransaccionesProductos
+Nombre Tecnico del Servicio: ConsultaOperatoriaEspecialCheques
+La URL de prod es:  /consultaoperatoriaespecialcheques/basica
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1116
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/Lists/Catlogo%20Operaciones%20Socket/DispForm.aspx?ID=158
+Los consumidores de la operacion son:
+
+consumidores: 31;#GL - Cat\u00e1logo de pol\u00edticas y productos",
+GL - Cat\u00e1logo de pol\u00edticas y productos
+El framework es: ServiciosComunesProductos
+Nombre Tecnico del Servicio: QueryLoanContractSocket
+La URL de prod es: 
+Exise el Framework en la Consola?: FwkSiExist
+------------------------------------------------------------------------------------------------------------
+ID SOA a verificar: 1117
+URL a la ficha de la operacion extraida: 
+http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&ID=857
+Los consumidores de la operacion son:
+
+consumidores: 223;#SERP - SAP ERP ;#286;#YPRM - Journey Paquetes",
+SERP - SAP ERP 
+YPRM - Journey Paquetes
+El framework es: FuncionesComunes
+Nombre Tecnico del Servicio: AccionesAutenticacionAFIP
+La URL de prod es:  /accionesautenticacionafip/basica
+Exise el Framework en la Consola?: FwkSiExist

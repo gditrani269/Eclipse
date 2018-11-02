@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<!DOCTYPE MessageFormat SYSTEM 'mfl.dtd'>
+<MessageFormat name='ObtenerCotizacionesMercadosResponse-1' version='2.01'>
+    <StructFormat name='ResponsePrincipal' delimOptional='y'>
+        <StructFormat name='HEADER' delimOptional='y'>
+            <FieldFormat name='BGR-VERSION' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-SEVERIDAD' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-CODIGO' type='String' delimOptional='y' length='25' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-DESCRIPCION' type='String' delimOptional='y' length='80' strlenInChars='n' codepage='Default'/>
+            <FieldFormat name='BGR-TIPO' type='String' delimOptional='y' length='8' strlenInChars='n' codepage='Default'/>
+        </StructFormat>
+        <StructFormat name='SAL-DATOS' delimOptional='y'>
+            <StructFormat name='REG-MEMEO' delimOptional='y'>
+                <FieldFormat name='MEMEO-COD-RETORNO' type='String' delimOptional='y' length='2' strlenInChars='n' codepage='Default'/>
+                <FieldFormat name='MEMEO-MENSAJE-RETORNO' type='String' delimOptional='y' length='50' strlenInChars='n' codepage='Default'/>
+                <StructFormat name='MEMEO-TS1-LOG' delimOptional='y'>
+                    <FieldFormat name='MEMEO-TS1-LOG-NOMBRE' type='String' delimOptional='y' length='4' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-TS1-LOG-TERMINAL' type='String' delimOptional='y' length='4' strlenInChars='n' codepage='Default'/>
+                </StructFormat>
+                <StructFormat name='MEMEO-TS2-LISTA' delimOptional='y'>
+                    <FieldFormat name='MEMEO-TS2-LISTA-NOMBRE' type='String' delimOptional='y' length='4' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-TS2-LISTA-TERMINAL' type='String' delimOptional='y' length='4' strlenInChars='n' codepage='Default'/>
+                </StructFormat>
+                <StructFormat name='MEMEO-DATOS-MERCADOS' delimOptional='y'>
+                    <FieldFormat name='MEMEO-MONEDA' type='String' delimOptional='y' length='2' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-PLAZO' type='String' delimOptional='y' length='2' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-TIPO-OPERACION' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-MEJOR-MERCADO' type='String' delimOptional='y' length='4' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-DESC-MEJOR-MERCADO' type='String' delimOptional='y' length='30' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-MEJOR-PRECIO' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-IND-MERCADO-AUTO-MANUAL' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-IND-MERCADO-OBLIG' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                    <FieldFormat name='MEMEO-IND-MERCADO-SUGER' type='String' delimOptional='y' length='1' strlenInChars='n' codepage='Default'/>
+                    <StructFormat name='MEMEO-OFERTAS-MERCADO' delimOptional='y'>
+                        <StructFormat name='MEMEO-OFERTAS' delimOptional='y' repeat='8'>
+                            <FieldFormat name='MEMEO-OFER-MERCADO' type='String' delimOptional='y' length='4' strlenInChars='n' codepage='Default'/>
+                            <FieldFormat name='MEMEO-OFER-DES-MERCADO' type='String' delimOptional='y' length='30' strlenInChars='n' codepage='Default'/>
+                            <FieldFormat name='MEMEO-OFER-PRE-ULT-OPER' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                            <FieldFormat name='MEMEO-OFER-CIERRE-ANT' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                            <FieldFormat name='MEMEO-OFER-VAR-PORC' type='String' delimOptional='y' length='7' strlenInChars='n' codepage='Default'/>
+                            <FieldFormat name='MEMEO-OFER-VAR-MONTO' type='String' delimOptional='y' length='19' strlenInChars='n' codepage='Default'/>
+                            <StructFormat name='MEMEO-OFER-COMPRA' delimOptional='y'>
+                                <FieldFormat name='MEMEO-OFER-COM-VOL-1' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-COM-PRECIO-1' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-COM-VOL-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-COM-PRECIO-2' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-COM-VOL-3' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-COM-PRECIO-3' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-COM-VOL-4' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-COM-PRECIO-4' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-COM-VOL-5' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-COM-PRECIO-5' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                            </StructFormat>
+                            <StructFormat name='MEMEO-OFER-VENTA' delimOptional='y'>
+                                <FieldFormat name='MEMEO-OFER-VEN-VOL-1' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-VEN-PRECIO-1' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-VEN-VOL-2' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-VEN-PRECIO-2' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-VEN-VOL-3' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-VEN-PRECIO-3' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-VEN-VOL-4' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-VEN-PRECIO-4' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-VEN-VOL-5' type='String' delimOptional='y' length='17' strlenInChars='n' codepage='Default'/>
+                                <FieldFormat name='MEMEO-OFER-VEN-PRECIO-5' type='String' delimOptional='y' length='15' strlenInChars='n' codepage='Default'/>
+                            </StructFormat>
+                        </StructFormat>
+                    </StructFormat>
+                </StructFormat>
+            </StructFormat>
+        </StructFormat>
+    </StructFormat>
+    <FieldFormat name='Delimiter' type='String' delimRef='' delim='/' delimOptional='n' codepage='windows-1252'/>
+</MessageFormat>

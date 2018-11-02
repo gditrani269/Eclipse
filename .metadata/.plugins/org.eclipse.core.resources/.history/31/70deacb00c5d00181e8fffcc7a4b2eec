@@ -1,0 +1,64 @@
+import java.io.*;
+//"C:\Program Files (x86)\Java\jre1.8.0_171\bin\java" -jar C:\Users\l0646482\n\mi_desa\Eclipse\CustomUpDate\CustomUpDate.jar
+public class HandleCustom {
+    public static void main(String[] args) {
+        File archivo = null;
+        FileReader fr = null;
+        BufferedReader br = null;
+        String sCustom = null;
+        String sOperacion = null;
+        String sURI = null;
+
+        for (String s: args) {
+ //           System.out.println(s);
+        }
+        if (args.length > 2) {
+	        sCustom = args [0];
+	        sOperacion = args [1];
+	        sURI = args [2];
+        }
+        
+        System.out.println (sCustom);
+        
+        String expresionRegular  = "hola soy la primera";
+        String cadena = "hola";
+        if (cadena.matches(expresionRegular)){ System.out.println("coincide");
+        }
+        else {
+
+        System.out.println("No coincide"); }
+        
+        try {
+           // Apertura del fichero y creacion de BufferedReader para poder
+           // hacer una lectura comoda (disponer del metodo readLine()).
+//           archivo = new File ("C:\\Users\\l0646482\\n\\mi_desa\\Eclipse\\CustomUpDate\\sasa.txt");
+           archivo = new File (sCustom);
+           fr = new FileReader (archivo);
+           br = new BufferedReader(fr);
+
+           // Lectura del fichero
+           String linea;
+           String nombrecambiado;
+           while((linea=br.readLine())!=null) {
+        	   
+        	   nombrecambiado=linea.replaceAll("&","&amp;");
+               System.out.println(nombrecambiado);
+           }
+        }
+        catch(Exception e){
+           e.printStackTrace();
+        }finally{
+           // En el finally cerramos el fichero, para asegurarnos
+           // que se cierra tanto si todo va bien como si salta 
+           // una excepcion.
+           try{                    
+              if( null != fr ){   
+                 fr.close();     
+              }                  
+           }catch (Exception e2){ 
+              e2.printStackTrace();
+           }
+        }
+    }
+
+}

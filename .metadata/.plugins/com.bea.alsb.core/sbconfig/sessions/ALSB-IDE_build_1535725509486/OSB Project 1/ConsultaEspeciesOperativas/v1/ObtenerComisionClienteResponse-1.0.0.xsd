@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:schemaEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
+    <con:schema><![CDATA[<schema targetNamespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienteresponse/1_0_0" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0" xmlns:b="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" xmlns:s="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" xmlns:tns="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienteresponse/1_0_0">
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0" schemaLocation="../../../Globales/BGBAResultadoOperacion-2.0.0.xsd"/>
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" schemaLocation="../../../Globales/BGBATiposSoporte-3.0.0.xsd"/>
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" schemaLocation="../../../Globales/BGBATiposBase-3.0.0.xsd"/>
+	<element name="ObtenerComisionClienteResponse">
+		<complexType>
+			<sequence>
+				<element ref="h:BGBAResultadoOperacion"/>
+				<element name="Datos" minOccurs="0">
+					<complexType>
+						<sequence>
+							<element name="MonedaLiquidacion" type="int">
+							</element>
+							<element name="ComisionBanco" type="decimal">
+							</element>
+							<element name="BonificacionCanal" type="decimal">
+							</element>
+							<element name="BonificacionCliente" type="decimal">
+							</element>
+							<element name="ComisionAgente" type="decimal">
+							</element>
+							<element name="DerechoMercado" type="decimal">
+							</element>
+							<element name="DerechoBolsa" type="decimal">
+							</element>
+							<element name="Iva1" type="decimal">
+							</element>
+							<element name="Iva2" type="decimal">
+							</element>
+							<element name="Iva3" type="decimal">
+							</element>
+							<element name="RentaFinanciera" type="decimal">
+							</element>
+							<element name="OtrasComisiones" type="decimal">
+							</element>
+							<element name="NetoFinal" type="decimal">
+							</element>
+							<element name="TotalGastos" type="decimal">
+							</element>
+							<element name="NumeroCuenta" type="unsignedLong">
+							</element>
+							<element name="Digito1" type="int">
+							</element>
+							<element name="SucursalCuenta" type="int">
+							</element>
+							<element name="Digito2" type="int">
+							</element>
+							<element name="TipoCuenta" type="int">
+							</element>
+							<element name="MonedaLiquidacion2" type="int">
+							</element>
+							<element name="ComisionBanco2" type="decimal">
+							</element>
+							<element name="BonificacionCanal2" type="decimal">
+							</element>
+							<element name="BonificacionCliente2" type="decimal">
+							</element>
+							<element name="ComisionAgente2" type="decimal">
+							</element>
+							<element name="DerechoMercado2" type="decimal">
+							</element>
+							<element name="DerechoBolsa2" type="decimal">
+							</element>
+							<element name="Iva1-2" type="decimal">
+							</element>
+							<element name="Iva2-2" type="decimal">
+							</element>
+							<element name="Iva3-3" type="decimal">
+							</element>
+							<element name="RentaFinanciera2" type="decimal">
+							</element>
+							<element name="OtrasComisiones2" type="decimal">
+							</element>
+							<element name="NetoFinal2" type="decimal">
+							</element>
+							<element name="TotalGastos2" type="decimal">
+							</element>
+							<element name="NumeroCuenta2" type="int">
+							</element>
+							<element name="Digito1-2" type="int">
+							</element>
+							<element name="SucursalCuenta2" type="int">
+							</element>
+							<element name="Digito2-2" type="int">
+							</element>
+							<element name="TipoCuenta2" type="int">
+							</element>
+							<element name="TipoCambio2" type="decimal">
+							</element>
+							<element name="PerfilIva" type="int">
+							</element>
+							<element name="NumeroOperacion" type="int">
+							</element>
+							<element name="Cantidad" type="decimal">
+							</element>
+							<element name="LimiteMinimoOper" type="decimal">
+							</element>
+							<element name="LimiteMaximoOper" type="decimal">
+							</element>
+							<element name="PorcentajeDerMercado" type="decimal">
+							</element>
+							<element name="PorcentajeDerBolsa" type="decimal">
+							</element>
+							<element name="PorcentajeComAgente" type="decimal">
+							</element>
+							<element name="PorcentajeComBanco" type="decimal">
+							</element>
+							<element name="PorcentajeOtrosGastos" type="decimal">
+							</element>
+							<element name="PorcentajeIva1" type="decimal">
+							</element>
+							<element name="PorcentajeIva2" type="decimal">
+							</element>
+							<element name="PorcentajeIva3" type="decimal">
+							</element>
+							<element name="PorcentajeBonifCanal" type="decimal">
+							</element>
+							<element name="PorcentajeBonifClie" type="decimal">
+							</element>
+							<element name="PorcentajeRentaFinanciera" type="decimal">
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element ref="h:BGBAResultadoOperacionLog"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="ObtenerComisionClienteResult">
+		<complexType>
+			<sequence>
+				<element ref="tns:ObtenerComisionClienteResponse"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>]]></con:schema>
+    <con:dependencies>
+        <con:import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0" schemaLocation="../../../Globales/BGBAResultadoOperacion-2.0.0.xsd" ref="Globales/BGBAResultadoOperacion-2.0.0"/>
+        <con:import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" schemaLocation="../../../Globales/BGBATiposSoporte-3.0.0.xsd" ref="Globales/BGBATiposSoporte-3.0.0"/>
+        <con:import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" schemaLocation="../../../Globales/BGBATiposBase-3.0.0.xsd" ref="Globales/BGBATiposBase-3.0.0"/>
+    </con:dependencies>
+    <con:targetNamespace>http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercomisionclienteresponse/1_0_0</con:targetNamespace>
+</con:schemaEntry>

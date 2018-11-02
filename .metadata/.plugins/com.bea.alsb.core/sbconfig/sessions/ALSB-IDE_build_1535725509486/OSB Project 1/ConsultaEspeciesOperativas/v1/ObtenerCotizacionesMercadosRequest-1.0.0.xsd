@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:schemaEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
+    <con:schema><![CDATA[<!-- edited with XMLSpy v2008 rel. 2 (http://www.altova.com) by mazuki (darksiderg) --><schema targetNamespace="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosrequest/1_0_0" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://ws.bancogalicia.com.ar/webservices/globales/bgbaheader/2_0_0" xmlns:b="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" xmlns:s="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" xmlns:tns="http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosrequest/1_0_0">
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbaheader/2_0_0" schemaLocation="../../../Globales/BGBAHeader-2.0.0.xsd"/>
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" schemaLocation="../../../Globales/BGBATiposSoporte-3.0.0.xsd"/>
+	<import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" schemaLocation="../../../Globales/BGBATiposBase-3.0.0.xsd"/>
+	<element name="ObtenerCotizacionesMercadosRequest">
+		<complexType>
+			<sequence>
+				<element ref="h:BGBAHeader"/>
+				<element name="Datos">
+					<complexType>
+						<sequence>
+							<element name="CanalIngreso" type="b:codigov2"/>
+							<element name="SistemaIngreso" type="b:codigov2"/>
+							<element name="Especie" type="b:id"/>
+							<element name="TipoOperacion" type="b:codigov2"/>
+							<element name="Plazo" type="b:codigov2"/>
+							<element name="Moneda" type="b:codigov2"/>
+							<element name="Servicio" type="b:codigov2"/>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="ObtenerCotizacionesMercados">
+		<complexType>
+			<sequence>
+				<element ref="tns:ObtenerCotizacionesMercadosRequest"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>]]></con:schema>
+    <con:dependencies>
+        <con:import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbaheader/2_0_0" schemaLocation="../../../Globales/BGBAHeader-2.0.0.xsd" ref="Globales/BGBAHeader-2.0.0"/>
+        <con:import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0" schemaLocation="../../../Globales/BGBATiposSoporte-3.0.0.xsd" ref="Globales/BGBATiposSoporte-3.0.0"/>
+        <con:import namespace="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0" schemaLocation="../../../Globales/BGBATiposBase-3.0.0.xsd" ref="Globales/BGBATiposBase-3.0.0"/>
+    </con:dependencies>
+    <con:targetNamespace>http://ws.bancogalicia.com.ar/webservices/consultaespeciesoperativas/obtenercotizacionesmercadosrequest/1_0_0</con:targetNamespace>
+</con:schemaEntry>
